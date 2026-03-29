@@ -78,7 +78,7 @@ export function TaskDetailsModal({ task, open, onOpenChange, onEdit, currentUser
                     user
                 }])
                 // In real app, revalidation might handle it, but for modal state:
-                getComments(task.id).then(r => r.success && setComments(r.data))
+                getComments(task.id).then(r => r.success && r.data && setComments(r.data))
             }
         } catch (error) {
             console.error(error)
