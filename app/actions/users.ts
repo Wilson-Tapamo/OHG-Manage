@@ -14,7 +14,7 @@ export async function getConsultants(filters?: {
     sortBy?: 'rate_asc' | 'rate_desc' | 'rating_desc' | 'projects_desc'
 }) {
     const session = await auth()
-    if (session?.user?.role !== "DIRECTOR") return { success: false, error: "Non autorisé" }
+    if (!session?.user || (session.user as any)?.role !== "DIRECTOR") return { success: false, error: "Non autorisé" }
 
     const where: any = { role: "CONSULTANT" }
 
@@ -82,7 +82,7 @@ export async function getConsultants(filters?: {
 
         // Manual sort for counts if needed
         if (filters?.sortBy === 'projects_desc') {
-            consultants.sort((a, b) => b._count.consultingProjects - a._count.consultingProjects)
+            consultants.sort((a: any, b: any) => b._count.consultingProjects - a._count.consultingProjects)
         }
 
         return { success: true, data: consultants }
@@ -94,7 +94,7 @@ export async function getConsultants(filters?: {
 
 export async function createConsultant(data: ConsultantInput) {
     const session = await auth()
-    if (session?.user?.role !== "DIRECTOR") return { success: false, error: "Non autorisé" }
+    if (!session?.user || (session.user as any)?.role !== "DIRECTOR") return { success: false, error: "Non autorisé" }
 
     const validated = ConsultantSchema.safeParse(data)
     if (!validated.success) return { success: false, error: validated.error.flatten() }
@@ -127,7 +127,7 @@ export async function createConsultant(data: ConsultantInput) {
 
 export async function updateConsultant(id: string, data: Partial<ConsultantInput>) {
     const session = await auth()
-    if (session?.user?.role !== "DIRECTOR") return { success: false, error: "Non autorisé" }
+    if (!session?.user || (session.user as any)?.role !== "DIRECTOR") return { success: false, error: "Non autorisé" }
 
     try {
         const { password, ...updateData } = data
@@ -152,7 +152,7 @@ export async function updateConsultant(id: string, data: Partial<ConsultantInput
 
 export async function deleteConsultant(id: string) {
     const session = await auth()
-    if (session?.user?.role !== "DIRECTOR") return { success: false, error: "Non autorisé" }
+    if (!session?.user || (session.user as any)?.role !== "DIRECTOR") return { success: false, error: "Non autorisé" }
 
     try {
         await prisma.user.delete({ where: { id } })

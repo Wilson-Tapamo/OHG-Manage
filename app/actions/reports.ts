@@ -5,7 +5,7 @@ import { auth } from "@/lib/auth"
 
 export async function getMonthlySummary(filters?: { startDate?: string, endDate?: string }) {
     const session = await auth()
-    if ((session?.user as any)?.role !== "DIRECTOR") {
+    if (!session?.user || (session.user as any)?.role !== "DIRECTOR") {
         return { success: false, error: "Non autorisé" }
     }
 
@@ -72,7 +72,7 @@ export async function getMonthlySummary(filters?: { startDate?: string, endDate?
 
 export async function getFinancialReport(filters?: { startDate?: string, endDate?: string }) {
     const session = await auth()
-    if ((session?.user as any)?.role !== "DIRECTOR") {
+    if (!session?.user || (session.user as any)?.role !== "DIRECTOR") {
         return { success: false, error: "Non autorisé" }
     }
 
@@ -98,7 +98,7 @@ export async function getFinancialReport(filters?: { startDate?: string, endDate
 
 export async function getTaskReport(filters?: { startDate?: string, endDate?: string, projectId?: string }) {
     const session = await auth()
-    if ((session?.user as any)?.role !== "DIRECTOR") {
+    if (!session?.user || (session.user as any)?.role !== "DIRECTOR") {
         return { success: false, error: "Non autorisé" }
     }
 
@@ -133,7 +133,7 @@ export async function getTaskReport(filters?: { startDate?: string, endDate?: st
 
 export async function getConsultantReport(filters?: { startDate?: string, endDate?: string }) {
     const session = await auth()
-    if ((session?.user as any)?.role !== "DIRECTOR") {
+    if (!session?.user || (session.user as any)?.role !== "DIRECTOR") {
         return { success: false, error: "Non autorisé" }
     }
 
