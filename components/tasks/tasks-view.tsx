@@ -331,9 +331,6 @@ export function TasksView({ initialTasks, projects, consultants, currentUser }: 
                 task={selectedTask}
                 currentUser={currentUser}
                 onEdit={handleEditTask}
-                onStatusChange={() => {
-                    if (selectedTask) handleStatusChange(selectedTask)
-                }}
             />
 
             <TaskStatusModal
