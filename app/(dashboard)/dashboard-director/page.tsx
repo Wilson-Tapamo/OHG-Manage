@@ -87,7 +87,7 @@ export default async function DirectorDashboard() {
                         Tableau de Bord
                     </h1>
                     <p className="text-slate-500 dark:text-slate-400 mt-1 text-sm md:text-base">
-                        Bienvenue, {session.user.name}. Voici un aperçu de votre cabinet.
+                        Bienvenue, {session?.user?.name}. Voici un aperçu de votre cabinet.
                     </p>
                 </div>
                 <div className="flex flex-wrap gap-2 w-full md:w-auto">
