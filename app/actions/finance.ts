@@ -7,7 +7,7 @@ import { revalidatePath } from "next/cache"
 // Get finance dashboard data
 export async function getFinanceDashboard(filters?: { startDate?: string, endDate?: string }) {
     const session = await auth()
-    if ((session?.user as any)?.role !== "DIRECTOR") {
+    if (!session?.user || (session.user as any)?.role !== "DIRECTOR") {
         return { success: false, error: "Non autorisé" }
     }
 
@@ -106,7 +106,7 @@ export async function getFinanceEntries(filters?: {
     endDate?: string
 }) {
     const session = await auth()
-    if ((session?.user as any)?.role !== "DIRECTOR") {
+    if (!session?.user || (session.user as any)?.role !== "DIRECTOR") {
         return { success: false, error: "Non autorisé" }
     }
 
@@ -149,7 +149,7 @@ export async function createFinanceEntry(data: {
     invoiceId?: string
 }) {
     const session = await auth()
-    if ((session?.user as any)?.role !== "DIRECTOR") {
+    if (!session?.user || (session.user as any)?.role !== "DIRECTOR") {
         return { success: false, error: "Non autorisé" }
     }
 
@@ -164,7 +164,7 @@ export async function createFinanceEntry(data: {
                 projectId: data.projectId || null,
                 taskId: data.taskId || null,
                 invoiceId: data.invoiceId || null,
-                createdById: session.user!.id
+                createdById: (session.user as any).id
             }
         })
 
@@ -179,7 +179,7 @@ export async function createFinanceEntry(data: {
 // Delete finance entry
 export async function deleteFinanceEntry(id: string) {
     const session = await auth()
-    if ((session?.user as any)?.role !== "DIRECTOR") {
+    if (!session?.user || (session.user as any)?.role !== "DIRECTOR") {
         return { success: false, error: "Non autorisé" }
     }
 
