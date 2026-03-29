@@ -39,7 +39,7 @@ export function ConsultantForm({ open, onOpenChange, consultant }: ConsultantFor
     }
 
     const form = useForm<ConsultantInput>({
-        resolver: zodResolver(ConsultantSchema),
+        resolver: zodResolver(ConsultantSchema) as any,
         defaultValues: defaultValues as any,
     })
 

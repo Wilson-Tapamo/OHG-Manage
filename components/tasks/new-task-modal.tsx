@@ -71,7 +71,7 @@ export function NewTaskModal({ open, onOpenChange, projects, consultants, task }
     // The parent uses `key={editingTask ? editingTask.id : 'new'}` so it resets.
 
     const form = useForm<TaskInput>({
-        resolver: zodResolver(TaskSchema),
+        resolver: zodResolver(TaskSchema) as any,
         defaultValues: {
             title: task?.title || "",
             description: task?.description || "",
