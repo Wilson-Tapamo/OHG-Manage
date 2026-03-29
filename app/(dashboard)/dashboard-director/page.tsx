@@ -29,7 +29,11 @@ import { getInitials } from "@/lib/utils";
 export default async function DirectorDashboard() {
     const session = await auth();
 
-    if ((session?.user as any)?.role !== "DIRECTOR") {
+    if (!session?.user) {
+        redirect("/login");
+    }
+
+    if ((session.user as any)?.role !== "DIRECTOR") {
         redirect("/dashboard-consultant");
     }
 
