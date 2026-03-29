@@ -18,12 +18,12 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 
 import { TaskCard } from "./task-card"
-// ... (previous code)
-import { TaskDetailsModal } from "./task-details-modal"
-import { NewTaskModal } from "./new-task-modal"
-import { TaskStatusModal } from "./task-status-modal"
-
-// ... (interface remains same)
+interface TasksViewProps {
+    initialTasks: any[]
+    projects: any[]
+    consultants: any[]
+    currentUser: any
+}
 
 export function TasksView({ initialTasks, projects, consultants, currentUser }: TasksViewProps) {
     const [viewMode, setViewMode] = useState<"board" | "list" | "calendar" | "gantt">("board")
