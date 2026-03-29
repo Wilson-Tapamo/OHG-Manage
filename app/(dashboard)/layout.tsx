@@ -18,8 +18,8 @@ export default async function DashboardGroupLayout({
             user={{
                 name: session.user.name,
                 email: session.user.email,
-                avatar: session.user.avatar,
-                role: session.user.role,
+                avatar: (session.user as any).avatar,
+                role: (session.user as any).role,
             }}
         >
             {children}
