@@ -77,9 +77,9 @@ export default function ReportsView() {
                 headStyles: { fillColor: [41, 128, 185] }
             })
 
-            doc.text("Activité", 14, doc.lastAutoTable.finalY + 15)
+            doc.text("Activité", 14, (doc as any).lastAutoTable.finalY + 15)
             autoTable(doc, {
-                startY: doc.lastAutoTable.finalY + 20,
+                startY: (doc as any).lastAutoTable.finalY + 20,
                 head: [['Métrique', 'Quantité']],
                 body: [
                     ['Projets Actifs', data.activeProjects],
