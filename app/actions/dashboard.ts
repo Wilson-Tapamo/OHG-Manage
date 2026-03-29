@@ -5,7 +5,7 @@ import { auth } from "@/lib/auth"
 
 export async function getDirectorDashboardData() {
     const session = await auth()
-    if ((session?.user as any)?.role !== "DIRECTOR") {
+    if (!session?.user || (session.user as any)?.role !== "DIRECTOR") {
         return { success: false, error: "Non autorisé" }
     }
 
@@ -81,7 +81,7 @@ export async function getDirectorDashboardData() {
 
         // 4. Recent Notifications
         const recentNotifications = await prisma.notification.findMany({
-            where: { userId: session.user.id },
+            where: { userId: (session.user as any).id },
             orderBy: { createdAt: 'desc' },
             take: 5
         })
@@ -97,7 +97,7 @@ export async function getDirectorDashboardData() {
                     pendingRevenue: Number(pendingRevenue._sum.total || 0)
                 },
                 finance: financeSummary,
-                consultants: consultants.map(c => ({
+                consultants: consultants.map((c: any) => ({
                     ...c,
                     completedTasks: c._count.assignedTasks
                 })),
@@ -246,7 +246,7 @@ export async function getConsultantDashboardData() {
                 tasksInProgress,
                 overdueTasks,
                 pendingPayments: completedTasksWithPendingInvoices,
-                assignedProjects: assignedProjects.map(p => ({
+                assignedProjects: assignedProjects.map((p: any) => ({
                     ...p,
                     taskCount: p._count.tasks
                 })),
