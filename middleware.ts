@@ -32,13 +32,13 @@ export async function middleware(request: NextRequest) {
         pathname.startsWith(route)
     );
 
-    if (isDirectorOnlyRoute && session.user.role !== "DIRECTOR") {
+    if (isDirectorOnlyRoute && (session?.user as any)?.role !== "DIRECTOR") {
         return NextResponse.redirect(new URL("/dashboard-consultant", request.url));
     }
 
     // Redirect based on role for dashboard routes
     if (pathname === "/dashboard") {
-        if (session.user.role === "DIRECTOR") {
+        if ((session?.user as any)?.role === "DIRECTOR") {
             return NextResponse.redirect(new URL("/dashboard-director", request.url));
         } else {
             return NextResponse.redirect(
