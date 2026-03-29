@@ -1,0 +1,1138 @@
+2025-12-09T01:52:01.576530Z  INFO tailwindcss_oxide::scanner: Provided sources:
+2025-12-09T01:52:01.577248Z  INFO tailwindcss_oxide::scanner: Source: PublicSourceEntry { base: "C:\\Users\\User\\Documents\\Optimum", pattern: "**/*", negated: false }
+2025-12-09T01:52:01.578158Z  INFO tailwindcss_oxide::scanner: Optimized sources:
+2025-12-09T01:52:01.578213Z  INFO tailwindcss_oxide::scanner: Source: Auto { base: "C:\\Users\\User\\Documents\\Optimum" }
+2025-12-09T01:52:01.584089Z  INFO scan_sources: tailwindcss_oxide::scanner: enter
+2025-12-09T01:52:01.586623Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app"
+2025-12-09T01:52:01.587192Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)"
+2025-12-09T01:52:01.587470Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\consultants"
+2025-12-09T01:52:01.587697Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\consultants\\page.tsx"
+2025-12-09T01:52:01.587910Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\dashboard-consultant"
+2025-12-09T01:52:01.588141Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\dashboard-consultant\\page.tsx"
+2025-12-09T01:52:01.588321Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\dashboard-director"
+2025-12-09T01:52:01.588496Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\dashboard-director\\page.tsx"
+2025-12-09T01:52:01.588690Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\finance"
+2025-12-09T01:52:01.589248Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\finance\\page.tsx"
+2025-12-09T01:52:01.589710Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\invoices"
+2025-12-09T01:52:01.590083Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\invoices\\page.tsx"
+2025-12-09T01:52:01.590316Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\layout.tsx"
+2025-12-09T01:52:01.590712Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\payments"
+2025-12-09T01:52:01.591067Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\payments\\page.tsx"
+2025-12-09T01:52:01.591303Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\projects"
+2025-12-09T01:52:01.591493Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\projects\\page.tsx"
+2025-12-09T01:52:01.591663Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\reports"
+2025-12-09T01:52:01.591835Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\reports\\page.tsx"
+2025-12-09T01:52:01.592014Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\settings"
+2025-12-09T01:52:01.592185Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\settings\\page.tsx"
+2025-12-09T01:52:01.592352Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\tasks"
+2025-12-09T01:52:01.592563Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\tasks\\page.tsx"
+2025-12-09T01:52:01.593013Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\api"
+2025-12-09T01:52:01.593246Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\api\\auth"
+2025-12-09T01:52:01.593478Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\api\\auth\\[...nextauth]"
+2025-12-09T01:52:01.593645Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\api\\auth\\[...nextauth]\\route.ts"
+2025-12-09T01:52:01.593820Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\globals.css"
+2025-12-09T01:52:01.593898Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\layout.tsx"
+2025-12-09T01:52:01.593979Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\page.tsx"
+2025-12-09T01:52:01.594143Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\components"
+2025-12-09T01:52:01.594351Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\components\\layout"
+2025-12-09T01:52:01.594504Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\components\\layout\\dashboard-layout.tsx"
+2025-12-09T01:52:01.594581Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\components\\layout\\sidebar.tsx"
+2025-12-09T01:52:01.594662Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\components\\layout\\topbar.tsx"
+2025-12-09T01:52:01.594825Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\components\\ui"
+2025-12-09T01:52:01.595082Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\components\\ui\\avatar.tsx"
+2025-12-09T01:52:01.595240Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\components\\ui\\button.tsx"
+2025-12-09T01:52:01.595399Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\components\\ui\\card.tsx"
+2025-12-09T01:52:01.595592Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\components\\ui\\dropdown-menu.tsx"
+2025-12-09T01:52:01.595733Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\components\\ui\\input.tsx"
+2025-12-09T01:52:01.595878Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\components\\ui\\label.tsx"
+2025-12-09T01:52:01.596061Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\components\\ui\\separator.tsx"
+2025-12-09T01:52:01.596468Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\db"
+2025-12-09T01:52:01.596681Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\db\\prisma.ts"
+2025-12-09T01:52:01.596805Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\eslint.config.mjs"
+2025-12-09T01:52:01.596945Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\lib"
+2025-12-09T01:52:01.597164Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\lib\\auth.ts"
+2025-12-09T01:52:01.597258Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\lib\\utils.ts"
+2025-12-09T01:52:01.597385Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\middleware.ts"
+2025-12-09T01:52:01.597486Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\next.config.ts"
+2025-12-09T01:52:01.597904Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\package.json"
+2025-12-09T01:52:01.598010Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\postcss.config.mjs"
+2025-12-09T01:52:01.598206Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\prisma"
+2025-12-09T01:52:01.598474Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\prisma\\init.sql"
+2025-12-09T01:52:01.598605Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\prisma\\schema.prisma"
+2025-12-09T01:52:01.598682Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\prisma\\seed.ts"
+2025-12-09T01:52:01.598866Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\public"
+2025-12-09T01:52:01.599038Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\public\\file.svg"
+2025-12-09T01:52:01.599112Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\public\\globe.svg"
+2025-12-09T01:52:01.599186Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\public\\next.svg"
+2025-12-09T01:52:01.599261Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\public\\vercel.svg"
+2025-12-09T01:52:01.599334Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\public\\window.svg"
+2025-12-09T01:52:01.599452Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\README.md"
+2025-12-09T01:52:01.599571Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\test-connection.js"
+2025-12-09T01:52:01.599653Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\test-mysql.js"
+2025-12-09T01:52:01.599728Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\tsconfig.json"
+2025-12-09T01:52:01.599865Z  INFO scan_sources: tailwindcss_oxide::scanner: exit
+2025-12-09T01:52:01.599879Z  INFO extract_candidates: tailwindcss_oxide::scanner: enter
+2025-12-09T01:52:01.599889Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: enter
+2025-12-09T01:52:01.599894Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading 44 file(s)
+2025-12-09T01:52:01.600492Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\consultants\\page.tsx"
+2025-12-09T01:52:01.600609Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\User\\Documents\\Optimum\\components\\ui\\label.tsx"
+2025-12-09T01:52:01.600685Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\dashboard-consultant\\page.tsx"
+2025-12-09T01:52:01.600812Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\User\\Documents\\Optimum\\components\\ui\\separator.tsx"
+2025-12-09T01:52:01.600826Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\User\\Documents\\Optimum\\app\\api\\auth\\[...nextauth]\\route.ts"
+2025-12-09T01:52:01.600927Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\User\\Documents\\Optimum\\db\\prisma.ts"
+2025-12-09T01:52:01.600916Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\User\\Documents\\Optimum\\components\\layout\\topbar.tsx"
+2025-12-09T01:52:01.600918Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\User\\Documents\\Optimum\\prisma\\schema.prisma"
+2025-12-09T01:52:01.600939Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\dashboard-director\\page.tsx"
+2025-12-09T01:52:01.600960Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\User\\Documents\\Optimum\\app\\layout.tsx"
+2025-12-09T01:52:01.601066Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\User\\Documents\\Optimum\\public\\vercel.svg"
+2025-12-09T01:52:01.601135Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\User\\Documents\\Optimum\\app\\page.tsx"
+2025-12-09T01:52:01.601134Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\User\\Documents\\Optimum\\components\\ui\\avatar.tsx"
+2025-12-09T01:52:01.601188Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\User\\Documents\\Optimum\\prisma\\seed.ts"
+2025-12-09T01:52:01.601211Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\User\\Documents\\Optimum\\eslint.config.mjs"
+2025-12-09T01:52:01.601223Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\User\\Documents\\Optimum\\public\\window.svg"
+2025-12-09T01:52:01.601242Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\finance\\page.tsx"
+2025-12-09T01:52:01.601321Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\User\\Documents\\Optimum\\components\\layout\\dashboard-layout.tsx"
+2025-12-09T01:52:01.601326Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\User\\Documents\\Optimum\\lib\\auth.ts"
+2025-12-09T01:52:01.601328Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\User\\Documents\\Optimum\\public\\file.svg"
+2025-12-09T01:52:01.601370Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\User\\Documents\\Optimum\\components\\ui\\button.tsx"
+2025-12-09T01:52:01.601396Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\User\\Documents\\Optimum\\README.md"
+2025-12-09T01:52:01.601404Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\User\\Documents\\Optimum\\components\\layout\\sidebar.tsx"
+2025-12-09T01:52:01.601471Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\User\\Documents\\Optimum\\lib\\utils.ts"
+2025-12-09T01:52:01.601516Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\User\\Documents\\Optimum\\public\\globe.svg"
+2025-12-09T01:52:01.601529Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\User\\Documents\\Optimum\\test-connection.js"
+2025-12-09T01:52:01.601541Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\User\\Documents\\Optimum\\test-mysql.js"
+2025-12-09T01:52:01.601557Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\User\\Documents\\Optimum\\components\\ui\\dropdown-menu.tsx"
+2025-12-09T01:52:01.601566Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\invoices\\page.tsx"
+2025-12-09T01:52:01.601569Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\User\\Documents\\Optimum\\middleware.ts"
+2025-12-09T01:52:01.601595Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\User\\Documents\\Optimum\\public\\next.svg"
+2025-12-09T01:52:01.601642Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\User\\Documents\\Optimum\\tsconfig.json"
+2025-12-09T01:52:01.601674Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\reports\\page.tsx"
+2025-12-09T01:52:01.601682Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\layout.tsx"
+2025-12-09T01:52:01.601715Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\User\\Documents\\Optimum\\next.config.ts"
+2025-12-09T01:52:01.601718Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\User\\Documents\\Optimum\\components\\ui\\input.tsx"
+2025-12-09T01:52:01.601781Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\projects\\page.tsx"
+2025-12-09T01:52:01.601808Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\settings\\page.tsx"
+2025-12-09T01:52:01.601816Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\User\\Documents\\Optimum\\prisma\\init.sql"
+2025-12-09T01:52:01.601819Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\User\\Documents\\Optimum\\package.json"
+2025-12-09T01:52:01.601822Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\User\\Documents\\Optimum\\postcss.config.mjs"
+2025-12-09T01:52:01.601930Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\payments\\page.tsx"
+2025-12-09T01:52:01.601878Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\User\\Documents\\Optimum\\components\\ui\\card.tsx"
+2025-12-09T01:52:01.601909Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\tasks\\page.tsx"
+2025-12-09T01:52:01.602075Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: exit
+2025-12-09T01:52:01.602097Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: enter
+2025-12-09T01:52:01.602107Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: enter
+2025-12-09T01:52:01.604672Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: exit
+2025-12-09T01:52:01.604722Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: exit
+2025-12-09T01:52:01.604740Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: enter
+2025-12-09T01:52:01.604750Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading 1 file(s)
+2025-12-09T01:52:01.604890Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading "C:\\Users\\User\\Documents\\Optimum\\app\\globals.css"
+2025-12-09T01:52:01.604912Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: exit
+2025-12-09T01:52:01.604930Z  INFO extract_candidates:extract_css_variables: tailwindcss_oxide::scanner: enter
+2025-12-09T01:52:01.604942Z  INFO extract_candidates:extract_css_variables:extract: tailwindcss_oxide::scanner: enter
+2025-12-09T01:52:01.605138Z  INFO extract_candidates:extract_css_variables:extract: tailwindcss_oxide::scanner: exit
+2025-12-09T01:52:01.605161Z  INFO extract_candidates:extract_css_variables: tailwindcss_oxide::scanner: exit
+2025-12-09T01:52:01.609226Z  INFO extract_candidates: tailwindcss_oxide::scanner: exit
+2025-12-09T01:52:01.610637Z  INFO get_files: tailwindcss_oxide::scanner: enter
+2025-12-09T01:52:01.610684Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: enter
+2025-12-09T01:52:01.614547Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app"
+2025-12-09T01:52:01.615598Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)"
+2025-12-09T01:52:01.616275Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\consultants"
+2025-12-09T01:52:01.616805Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\dashboard-consultant"
+2025-12-09T01:52:01.617324Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\dashboard-director"
+2025-12-09T01:52:01.617831Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\finance"
+2025-12-09T01:52:01.618348Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\invoices"
+2025-12-09T01:52:01.618709Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\payments"
+2025-12-09T01:52:01.619024Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\projects"
+2025-12-09T01:52:01.619303Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\reports"
+2025-12-09T01:52:01.619695Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\settings"
+2025-12-09T01:52:01.619991Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\tasks"
+2025-12-09T01:52:01.620345Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\api"
+2025-12-09T01:52:01.620539Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\api\\auth"
+2025-12-09T01:52:01.620742Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\api\\auth\\[...nextauth]"
+2025-12-09T01:52:01.621201Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\components"
+2025-12-09T01:52:01.621370Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\components\\layout"
+2025-12-09T01:52:01.621664Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\components\\ui"
+2025-12-09T01:52:01.622492Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\db"
+2025-12-09T01:52:01.623038Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\lib"
+2025-12-09T01:52:01.624016Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\prisma"
+2025-12-09T01:52:01.625349Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\public"
+2025-12-09T01:52:01.626173Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: exit
+2025-12-09T01:52:01.626360Z  INFO get_files: tailwindcss_oxide::scanner: exit
+2025-12-09T01:52:01.627221Z  INFO get_globs: tailwindcss_oxide::scanner: enter
+2025-12-09T01:52:01.627253Z  INFO get_globs:scan_sources: tailwindcss_oxide::scanner: enter
+2025-12-09T01:52:01.629473Z  INFO get_globs:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app"
+2025-12-09T01:52:01.629863Z  INFO get_globs:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)"
+2025-12-09T01:52:01.630224Z  INFO get_globs:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\consultants"
+2025-12-09T01:52:01.630951Z  INFO get_globs:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\dashboard-consultant"
+2025-12-09T01:52:01.631535Z  INFO get_globs:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\dashboard-director"
+2025-12-09T01:52:01.631870Z  INFO get_globs:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\finance"
+2025-12-09T01:52:01.632296Z  INFO get_globs:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\invoices"
+2025-12-09T01:52:01.632669Z  INFO get_globs:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\payments"
+2025-12-09T01:52:01.632929Z  INFO get_globs:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\projects"
+2025-12-09T01:52:01.633166Z  INFO get_globs:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\reports"
+2025-12-09T01:52:01.633412Z  INFO get_globs:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\settings"
+2025-12-09T01:52:01.633654Z  INFO get_globs:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\tasks"
+2025-12-09T01:52:01.633911Z  INFO get_globs:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\api"
+2025-12-09T01:52:01.634083Z  INFO get_globs:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\api\\auth"
+2025-12-09T01:52:01.634288Z  INFO get_globs:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\api\\auth\\[...nextauth]"
+2025-12-09T01:52:01.634717Z  INFO get_globs:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\components"
+2025-12-09T01:52:01.634893Z  INFO get_globs:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\components\\layout"
+2025-12-09T01:52:01.635222Z  INFO get_globs:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\components\\ui"
+2025-12-09T01:52:01.635685Z  INFO get_globs:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\db"
+2025-12-09T01:52:01.635965Z  INFO get_globs:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\lib"
+2025-12-09T01:52:01.636562Z  INFO get_globs:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\prisma"
+2025-12-09T01:52:01.636877Z  INFO get_globs:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\public"
+2025-12-09T01:52:01.637448Z  INFO get_globs:scan_sources: tailwindcss_oxide::scanner: exit
+2025-12-09T01:52:01.646840Z  INFO get_globs: tailwindcss_oxide::scanner: exit
+2025-12-09T01:56:31.201408Z  INFO scan_sources: tailwindcss_oxide::scanner: enter
+2025-12-09T01:56:31.203779Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app"
+2025-12-09T01:56:31.204122Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)"
+2025-12-09T01:56:31.204426Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\consultants"
+2025-12-09T01:56:31.204842Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\dashboard-consultant"
+2025-12-09T01:56:31.205238Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\dashboard-director"
+2025-12-09T01:56:31.205656Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\finance"
+2025-12-09T01:56:31.206185Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\invoices"
+2025-12-09T01:56:31.206830Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\payments"
+2025-12-09T01:56:31.207779Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\projects"
+2025-12-09T01:56:31.208693Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\reports"
+2025-12-09T01:56:31.209469Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\settings"
+2025-12-09T01:56:31.209961Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\tasks"
+2025-12-09T01:56:31.210406Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\api"
+2025-12-09T01:56:31.210696Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\api\\auth"
+2025-12-09T01:56:31.211003Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\api\\auth\\[...nextauth]"
+2025-12-09T01:56:31.211643Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\components"
+2025-12-09T01:56:31.211919Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\components\\layout"
+2025-12-09T01:56:31.212376Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\components\\ui"
+2025-12-09T01:56:31.213120Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\db"
+2025-12-09T01:56:31.213497Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\generate-hash.js"
+2025-12-09T01:56:31.213690Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\lib"
+2025-12-09T01:56:31.214631Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\prisma"
+2025-12-09T01:56:31.215029Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\prisma\\update-passwords.sql"
+2025-12-09T01:56:31.215230Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\public"
+2025-12-09T01:56:31.216185Z  INFO scan_sources: tailwindcss_oxide::scanner: exit
+2025-12-09T01:56:31.216214Z  INFO extract_candidates: tailwindcss_oxide::scanner: enter
+2025-12-09T01:56:31.216225Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: enter
+2025-12-09T01:56:31.216232Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading 2 file(s)
+2025-12-09T01:56:31.216386Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\User\\Documents\\Optimum\\prisma\\update-passwords.sql"
+2025-12-09T01:56:31.216439Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\User\\Documents\\Optimum\\generate-hash.js"
+2025-12-09T01:56:31.216485Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: exit
+2025-12-09T01:56:31.216507Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: enter
+2025-12-09T01:56:31.216519Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: enter
+2025-12-09T01:56:31.216636Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: exit
+2025-12-09T01:56:31.216661Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: exit
+2025-12-09T01:56:31.216739Z  INFO extract_candidates: tailwindcss_oxide::scanner: exit
+2025-12-09T01:56:31.217813Z  INFO get_files: tailwindcss_oxide::scanner: enter
+2025-12-09T01:56:31.217832Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: enter
+2025-12-09T01:56:31.219771Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app"
+2025-12-09T01:56:31.220010Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)"
+2025-12-09T01:56:31.220229Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\consultants"
+2025-12-09T01:56:31.220630Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\dashboard-consultant"
+2025-12-09T01:56:31.220933Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\dashboard-director"
+2025-12-09T01:56:31.221196Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\finance"
+2025-12-09T01:56:31.221456Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\invoices"
+2025-12-09T01:56:31.222052Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\payments"
+2025-12-09T01:56:31.222339Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\projects"
+2025-12-09T01:56:31.222738Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\reports"
+2025-12-09T01:56:31.223107Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\settings"
+2025-12-09T01:56:31.223648Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\tasks"
+2025-12-09T01:56:31.224508Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\api"
+2025-12-09T01:56:31.224829Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\api\\auth"
+2025-12-09T01:56:31.225195Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\api\\auth\\[...nextauth]"
+2025-12-09T01:56:31.226204Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\components"
+2025-12-09T01:56:31.226439Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\components\\layout"
+2025-12-09T01:56:31.226796Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\components\\ui"
+2025-12-09T01:56:31.227329Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\db"
+2025-12-09T01:56:31.227729Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\lib"
+2025-12-09T01:56:31.228504Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\prisma"
+2025-12-09T01:56:31.229106Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\public"
+2025-12-09T01:56:31.230071Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: exit
+2025-12-09T01:56:31.242852Z  INFO get_files: tailwindcss_oxide::scanner: exit
+2025-12-09T01:56:31.243727Z  INFO get_globs: tailwindcss_oxide::scanner: enter
+2025-12-09T01:56:31.243755Z  INFO get_globs: tailwindcss_oxide::scanner: exit
+2025-12-09T01:56:32.078841Z  INFO scan_sources: tailwindcss_oxide::scanner: enter
+2025-12-09T01:56:32.081183Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app"
+2025-12-09T01:56:32.081595Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)"
+2025-12-09T01:56:32.081958Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\consultants"
+2025-12-09T01:56:32.082301Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\dashboard-consultant"
+2025-12-09T01:56:32.082631Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\dashboard-director"
+2025-12-09T01:56:32.083030Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\finance"
+2025-12-09T01:56:32.083330Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\invoices"
+2025-12-09T01:56:32.083668Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\payments"
+2025-12-09T01:56:32.083952Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\projects"
+2025-12-09T01:56:32.084234Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\reports"
+2025-12-09T01:56:32.084517Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\settings"
+2025-12-09T01:56:32.084798Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\tasks"
+2025-12-09T01:56:32.085134Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\api"
+2025-12-09T01:56:32.085340Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\api\\auth"
+2025-12-09T01:56:32.085552Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\api\\auth\\[...nextauth]"
+2025-12-09T01:56:32.086063Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\components"
+2025-12-09T01:56:32.086344Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\components\\layout"
+2025-12-09T01:56:32.086777Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\components\\ui"
+2025-12-09T01:56:32.087801Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\db"
+2025-12-09T01:56:32.088937Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\lib"
+2025-12-09T01:56:32.090405Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\prisma"
+2025-12-09T01:56:32.091578Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\prisma\\update-passwords.sql"
+2025-12-09T01:56:32.092171Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\public"
+2025-12-09T01:56:32.093740Z  INFO scan_sources: tailwindcss_oxide::scanner: exit
+2025-12-09T01:56:32.093827Z  INFO extract_candidates: tailwindcss_oxide::scanner: enter
+2025-12-09T01:56:32.093849Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: enter
+2025-12-09T01:56:32.093860Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading 1 file(s)
+2025-12-09T01:56:32.094172Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading "C:\\Users\\User\\Documents\\Optimum\\prisma\\update-passwords.sql"
+2025-12-09T01:56:32.094248Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: exit
+2025-12-09T01:56:32.094267Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: enter
+2025-12-09T01:56:32.094280Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: enter
+2025-12-09T01:56:32.094475Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: exit
+2025-12-09T01:56:32.094506Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: exit
+2025-12-09T01:56:32.094565Z  INFO extract_candidates: tailwindcss_oxide::scanner: exit
+2025-12-09T01:56:32.096017Z  INFO get_files: tailwindcss_oxide::scanner: enter
+2025-12-09T01:56:32.096071Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: enter
+2025-12-09T01:56:32.098054Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app"
+2025-12-09T01:56:32.098312Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)"
+2025-12-09T01:56:32.098554Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\consultants"
+2025-12-09T01:56:32.098917Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\dashboard-consultant"
+2025-12-09T01:56:32.099193Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\dashboard-director"
+2025-12-09T01:56:32.099465Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\finance"
+2025-12-09T01:56:32.099759Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\invoices"
+2025-12-09T01:56:32.100098Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\payments"
+2025-12-09T01:56:32.100371Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\projects"
+2025-12-09T01:56:32.100650Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\reports"
+2025-12-09T01:56:32.100947Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\settings"
+2025-12-09T01:56:32.101233Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\tasks"
+2025-12-09T01:56:32.101554Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\api"
+2025-12-09T01:56:32.101760Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\api\\auth"
+2025-12-09T01:56:32.102019Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\api\\auth\\[...nextauth]"
+2025-12-09T01:56:32.102812Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\components"
+2025-12-09T01:56:32.103020Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\components\\layout"
+2025-12-09T01:56:32.103356Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\components\\ui"
+2025-12-09T01:56:32.103868Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\db"
+2025-12-09T01:56:32.104273Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\lib"
+2025-12-09T01:56:32.105248Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\prisma"
+2025-12-09T01:56:32.105984Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\public"
+2025-12-09T01:56:32.106979Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: exit
+2025-12-09T01:56:32.107188Z  INFO get_files: tailwindcss_oxide::scanner: exit
+2025-12-09T01:56:32.108402Z  INFO get_globs: tailwindcss_oxide::scanner: enter
+2025-12-09T01:56:32.108552Z  INFO get_globs: tailwindcss_oxide::scanner: exit
+2025-12-09T02:03:36.086795Z  INFO scan_sources: tailwindcss_oxide::scanner: enter
+2025-12-09T02:03:36.096446Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app"
+2025-12-09T02:03:36.097158Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)"
+2025-12-09T02:03:36.097892Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\consultants"
+2025-12-09T02:03:36.098780Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\dashboard-consultant"
+2025-12-09T02:03:36.099604Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\dashboard-director"
+2025-12-09T02:03:36.100398Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\finance"
+2025-12-09T02:03:36.101198Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\invoices"
+2025-12-09T02:03:36.102010Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\payments"
+2025-12-09T02:03:36.102674Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\projects"
+2025-12-09T02:03:36.103322Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\reports"
+2025-12-09T02:03:36.103977Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\settings"
+2025-12-09T02:03:36.104689Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\tasks"
+2025-12-09T02:03:36.105372Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\api"
+2025-12-09T02:03:36.105781Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\api\\auth"
+2025-12-09T02:03:36.106217Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\api\\auth\\[...nextauth]"
+2025-12-09T02:03:36.107048Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\page.tsx"
+2025-12-09T02:03:36.107454Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\components"
+2025-12-09T02:03:36.107957Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\components\\layout"
+2025-12-09T02:03:36.112013Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\components\\ui"
+2025-12-09T02:03:36.113065Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\db"
+2025-12-09T02:03:36.113765Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\lib"
+2025-12-09T02:03:36.115018Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\prisma"
+2025-12-09T02:03:36.115883Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\public"
+2025-12-09T02:03:36.116901Z  INFO scan_sources: tailwindcss_oxide::scanner: exit
+2025-12-09T02:03:36.116938Z  INFO extract_candidates: tailwindcss_oxide::scanner: enter
+2025-12-09T02:03:36.116949Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: enter
+2025-12-09T02:03:36.116957Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading 1 file(s)
+2025-12-09T02:03:36.117104Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading "C:\\Users\\User\\Documents\\Optimum\\app\\page.tsx"
+2025-12-09T02:03:36.117129Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: exit
+2025-12-09T02:03:36.117140Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: enter
+2025-12-09T02:03:36.117148Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: enter
+2025-12-09T02:03:36.119830Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: exit
+2025-12-09T02:03:36.119871Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: exit
+2025-12-09T02:03:36.120186Z  INFO extract_candidates: tailwindcss_oxide::scanner: exit
+2025-12-09T02:03:36.121639Z  INFO get_files: tailwindcss_oxide::scanner: enter
+2025-12-09T02:03:36.121700Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: enter
+2025-12-09T02:03:36.127590Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app"
+2025-12-09T02:03:36.128498Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)"
+2025-12-09T02:03:36.129035Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\consultants"
+2025-12-09T02:03:36.129723Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\dashboard-consultant"
+2025-12-09T02:03:36.131005Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\dashboard-director"
+2025-12-09T02:03:36.131616Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\finance"
+2025-12-09T02:03:36.132163Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\invoices"
+2025-12-09T02:03:36.132763Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\payments"
+2025-12-09T02:03:36.133308Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\projects"
+2025-12-09T02:03:36.133838Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\reports"
+2025-12-09T02:03:36.134363Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\settings"
+2025-12-09T02:03:36.134869Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\tasks"
+2025-12-09T02:03:36.135429Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\api"
+2025-12-09T02:03:36.135830Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\api\\auth"
+2025-12-09T02:03:36.136250Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\api\\auth\\[...nextauth]"
+2025-12-09T02:03:36.137339Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\components"
+2025-12-09T02:03:36.137797Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\components\\layout"
+2025-12-09T02:03:36.138440Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\components\\ui"
+2025-12-09T02:03:36.139460Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\db"
+2025-12-09T02:03:36.142029Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\lib"
+2025-12-09T02:03:36.143943Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\prisma"
+2025-12-09T02:03:36.145476Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\public"
+2025-12-09T02:03:36.146657Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: exit
+2025-12-09T02:03:36.147154Z  INFO get_files: tailwindcss_oxide::scanner: exit
+2025-12-09T02:03:36.147555Z  INFO get_globs: tailwindcss_oxide::scanner: enter
+2025-12-09T02:03:36.147586Z  INFO get_globs: tailwindcss_oxide::scanner: exit
+2025-12-09T02:07:29.208473Z  INFO scan_sources: tailwindcss_oxide::scanner: enter
+2025-12-09T02:07:29.212041Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app"
+2025-12-09T02:07:29.212465Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)"
+2025-12-09T02:07:29.212870Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\consultants"
+2025-12-09T02:07:29.213462Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\dashboard-consultant"
+2025-12-09T02:07:29.213975Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\dashboard-director"
+2025-12-09T02:07:29.214481Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\finance"
+2025-12-09T02:07:29.215007Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\invoices"
+2025-12-09T02:07:29.215620Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\payments"
+2025-12-09T02:07:29.216169Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\projects"
+2025-12-09T02:07:29.216728Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\reports"
+2025-12-09T02:07:29.217297Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\settings"
+2025-12-09T02:07:29.218032Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\tasks"
+2025-12-09T02:07:29.219163Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\api"
+2025-12-09T02:07:29.219634Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\api\\auth"
+2025-12-09T02:07:29.220096Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\api\\auth\\[...nextauth]"
+2025-12-09T02:07:29.220937Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\page.tsx"
+2025-12-09T02:07:29.221458Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\components"
+2025-12-09T02:07:29.222245Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\components\\layout"
+2025-12-09T02:07:29.223019Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\components\\ui"
+2025-12-09T02:07:29.224882Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\db"
+2025-12-09T02:07:29.226077Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\lib"
+2025-12-09T02:07:29.227544Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\prisma"
+2025-12-09T02:07:29.228242Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\public"
+2025-12-09T02:07:29.229227Z  INFO scan_sources: tailwindcss_oxide::scanner: exit
+2025-12-09T02:07:29.229258Z  INFO extract_candidates: tailwindcss_oxide::scanner: enter
+2025-12-09T02:07:29.229267Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: enter
+2025-12-09T02:07:29.229272Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading 1 file(s)
+2025-12-09T02:07:29.229396Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading "C:\\Users\\User\\Documents\\Optimum\\app\\page.tsx"
+2025-12-09T02:07:29.229424Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: exit
+2025-12-09T02:07:29.229434Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: enter
+2025-12-09T02:07:29.229444Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: enter
+2025-12-09T02:07:29.229902Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: exit
+2025-12-09T02:07:29.229931Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: exit
+2025-12-09T02:07:29.230012Z  INFO extract_candidates: tailwindcss_oxide::scanner: exit
+2025-12-09T02:07:29.231294Z  INFO get_files: tailwindcss_oxide::scanner: enter
+2025-12-09T02:07:29.231319Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: enter
+2025-12-09T02:07:29.233452Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app"
+2025-12-09T02:07:29.233848Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)"
+2025-12-09T02:07:29.234416Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\consultants"
+2025-12-09T02:07:29.235056Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\dashboard-consultant"
+2025-12-09T02:07:29.235591Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\dashboard-director"
+2025-12-09T02:07:29.236508Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\finance"
+2025-12-09T02:07:29.237190Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\invoices"
+2025-12-09T02:07:29.237929Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\payments"
+2025-12-09T02:07:29.239044Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\projects"
+2025-12-09T02:07:29.239799Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\reports"
+2025-12-09T02:07:29.240476Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\settings"
+2025-12-09T02:07:29.241488Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\tasks"
+2025-12-09T02:07:29.242309Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\api"
+2025-12-09T02:07:29.242771Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\api\\auth"
+2025-12-09T02:07:29.243103Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\api\\auth\\[...nextauth]"
+2025-12-09T02:07:29.243706Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\components"
+2025-12-09T02:07:29.243976Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\components\\layout"
+2025-12-09T02:07:29.244398Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\components\\ui"
+2025-12-09T02:07:29.245014Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\db"
+2025-12-09T02:07:29.245501Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\lib"
+2025-12-09T02:07:29.246297Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\prisma"
+2025-12-09T02:07:29.246679Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\public"
+2025-12-09T02:07:29.247320Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: exit
+2025-12-09T02:07:29.247490Z  INFO get_files: tailwindcss_oxide::scanner: exit
+2025-12-09T02:07:29.247692Z  INFO get_globs: tailwindcss_oxide::scanner: enter
+2025-12-09T02:07:29.247705Z  INFO get_globs: tailwindcss_oxide::scanner: exit
+2025-12-09T02:11:06.938857Z  INFO scan_sources: tailwindcss_oxide::scanner: enter
+2025-12-09T02:11:06.943691Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app"
+2025-12-09T02:11:06.944149Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)"
+2025-12-09T02:11:06.944574Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\consultants"
+2025-12-09T02:11:06.945156Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\dashboard-consultant"
+2025-12-09T02:11:06.945679Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\dashboard-director"
+2025-12-09T02:11:06.946213Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\finance"
+2025-12-09T02:11:06.946742Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\invoices"
+2025-12-09T02:11:06.947340Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\payments"
+2025-12-09T02:11:06.947829Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\projects"
+2025-12-09T02:11:06.948289Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\reports"
+2025-12-09T02:11:06.948750Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\settings"
+2025-12-09T02:11:06.949190Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\tasks"
+2025-12-09T02:11:06.949633Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\api"
+2025-12-09T02:11:06.949991Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\api\\auth"
+2025-12-09T02:11:06.950372Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\api\\auth\\[...nextauth]"
+2025-12-09T02:11:06.951043Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\page.tsx"
+2025-12-09T02:11:06.951390Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\components"
+2025-12-09T02:11:06.951811Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\components\\layout"
+2025-12-09T02:11:06.952499Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\components\\ui"
+2025-12-09T02:11:06.953495Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\db"
+2025-12-09T02:11:06.954321Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\lib"
+2025-12-09T02:11:06.955602Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\prisma"
+2025-12-09T02:11:06.957279Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\public"
+2025-12-09T02:11:06.958785Z  INFO scan_sources: tailwindcss_oxide::scanner: exit
+2025-12-09T02:11:06.958828Z  INFO extract_candidates: tailwindcss_oxide::scanner: enter
+2025-12-09T02:11:06.958840Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: enter
+2025-12-09T02:11:06.958849Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading 1 file(s)
+2025-12-09T02:11:06.959035Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading "C:\\Users\\User\\Documents\\Optimum\\app\\page.tsx"
+2025-12-09T02:11:06.959072Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: exit
+2025-12-09T02:11:06.959086Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: enter
+2025-12-09T02:11:06.959095Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: enter
+2025-12-09T02:11:06.960451Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: exit
+2025-12-09T02:11:06.960501Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: exit
+2025-12-09T02:11:06.960998Z  INFO extract_candidates: tailwindcss_oxide::scanner: exit
+2025-12-09T02:11:06.962042Z  INFO get_files: tailwindcss_oxide::scanner: enter
+2025-12-09T02:11:06.962085Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: enter
+2025-12-09T02:11:06.964204Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app"
+2025-12-09T02:11:06.964458Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)"
+2025-12-09T02:11:06.964774Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\consultants"
+2025-12-09T02:11:06.965106Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\dashboard-consultant"
+2025-12-09T02:11:06.965396Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\dashboard-director"
+2025-12-09T02:11:06.965691Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\finance"
+2025-12-09T02:11:06.965994Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\invoices"
+2025-12-09T02:11:06.966396Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\payments"
+2025-12-09T02:11:06.966973Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\projects"
+2025-12-09T02:11:06.967456Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\reports"
+2025-12-09T02:11:06.968011Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\settings"
+2025-12-09T02:11:06.968630Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\tasks"
+2025-12-09T02:11:06.969202Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\api"
+2025-12-09T02:11:06.969568Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\api\\auth"
+2025-12-09T02:11:06.969986Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\api\\auth\\[...nextauth]"
+2025-12-09T02:11:06.970923Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\components"
+2025-12-09T02:11:06.978350Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\components\\layout"
+2025-12-09T02:11:06.979367Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\components\\ui"
+2025-12-09T02:11:06.980491Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\db"
+2025-12-09T02:11:06.981268Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\lib"
+2025-12-09T02:11:06.982577Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\prisma"
+2025-12-09T02:11:06.983448Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\public"
+2025-12-09T02:11:06.984528Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: exit
+2025-12-09T02:11:06.984845Z  INFO get_files: tailwindcss_oxide::scanner: exit
+2025-12-09T02:11:06.985244Z  INFO get_globs: tailwindcss_oxide::scanner: enter
+2025-12-09T02:11:06.985289Z  INFO get_globs: tailwindcss_oxide::scanner: exit
+2025-12-09T02:11:20.005422Z  INFO scan_sources: tailwindcss_oxide::scanner: enter
+2025-12-09T02:11:20.008540Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app"
+2025-12-09T02:11:20.008948Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)"
+2025-12-09T02:11:20.009338Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\consultants"
+2025-12-09T02:11:20.009832Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\dashboard-consultant"
+2025-12-09T02:11:20.010331Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\dashboard-director"
+2025-12-09T02:11:20.010830Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\finance"
+2025-12-09T02:11:20.011374Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\invoices"
+2025-12-09T02:11:20.011973Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\payments"
+2025-12-09T02:11:20.012462Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\projects"
+2025-12-09T02:11:20.013059Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\reports"
+2025-12-09T02:11:20.013551Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\settings"
+2025-12-09T02:11:20.014000Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\tasks"
+2025-12-09T02:11:20.014495Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\api"
+2025-12-09T02:11:20.014876Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\api\\auth"
+2025-12-09T02:11:20.015457Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\api\\auth\\[...nextauth]"
+2025-12-09T02:11:20.016970Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\page.tsx"
+2025-12-09T02:11:20.017297Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\components"
+2025-12-09T02:11:20.017743Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\components\\layout"
+2025-12-09T02:11:20.018881Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\components\\ui"
+2025-12-09T02:11:20.021219Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\db"
+2025-12-09T02:11:20.021947Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\lib"
+2025-12-09T02:11:20.023301Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\prisma"
+2025-12-09T02:11:20.024123Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\public"
+2025-12-09T02:11:20.025193Z  INFO scan_sources: tailwindcss_oxide::scanner: exit
+2025-12-09T02:11:20.025224Z  INFO extract_candidates: tailwindcss_oxide::scanner: enter
+2025-12-09T02:11:20.025234Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: enter
+2025-12-09T02:11:20.025242Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading 1 file(s)
+2025-12-09T02:11:20.025410Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading "C:\\Users\\User\\Documents\\Optimum\\app\\page.tsx"
+2025-12-09T02:11:20.025444Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: exit
+2025-12-09T02:11:20.025456Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: enter
+2025-12-09T02:11:20.025466Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: enter
+2025-12-09T02:11:20.026528Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: exit
+2025-12-09T02:11:20.026574Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: exit
+2025-12-09T02:11:20.026696Z  INFO extract_candidates: tailwindcss_oxide::scanner: exit
+2025-12-09T02:11:20.027992Z  INFO get_files: tailwindcss_oxide::scanner: enter
+2025-12-09T02:11:20.028037Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: enter
+2025-12-09T02:11:20.031001Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app"
+2025-12-09T02:11:20.031360Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)"
+2025-12-09T02:11:20.031730Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\consultants"
+2025-12-09T02:11:20.032222Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\dashboard-consultant"
+2025-12-09T02:11:20.032560Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\dashboard-director"
+2025-12-09T02:11:20.032865Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\finance"
+2025-12-09T02:11:20.033182Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\invoices"
+2025-12-09T02:11:20.033524Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\payments"
+2025-12-09T02:11:20.033861Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\projects"
+2025-12-09T02:11:20.034153Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\reports"
+2025-12-09T02:11:20.034490Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\settings"
+2025-12-09T02:11:20.035131Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\tasks"
+2025-12-09T02:11:20.036293Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\api"
+2025-12-09T02:11:20.036696Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\api\\auth"
+2025-12-09T02:11:20.037178Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\api\\auth\\[...nextauth]"
+2025-12-09T02:11:20.038264Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\components"
+2025-12-09T02:11:20.038592Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\components\\layout"
+2025-12-09T02:11:20.039023Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\components\\ui"
+2025-12-09T02:11:20.039967Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\db"
+2025-12-09T02:11:20.040635Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\lib"
+2025-12-09T02:11:20.041911Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\prisma"
+2025-12-09T02:11:20.042662Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\public"
+2025-12-09T02:11:20.043657Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: exit
+2025-12-09T02:11:20.043857Z  INFO get_files: tailwindcss_oxide::scanner: exit
+2025-12-09T02:11:20.044236Z  INFO get_globs: tailwindcss_oxide::scanner: enter
+2025-12-09T02:11:20.044265Z  INFO get_globs: tailwindcss_oxide::scanner: exit
+2025-12-09T02:11:49.862384Z  INFO scan_sources: tailwindcss_oxide::scanner: enter
+2025-12-09T02:11:49.865323Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app"
+2025-12-09T02:11:49.865724Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)"
+2025-12-09T02:11:49.866127Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\consultants"
+2025-12-09T02:11:49.866662Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\dashboard-consultant"
+2025-12-09T02:11:49.867196Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\dashboard-director"
+2025-12-09T02:11:49.867710Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\finance"
+2025-12-09T02:11:49.868199Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\invoices"
+2025-12-09T02:11:49.868753Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\payments"
+2025-12-09T02:11:49.869223Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\projects"
+2025-12-09T02:11:49.869637Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\reports"
+2025-12-09T02:11:49.870148Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\settings"
+2025-12-09T02:11:49.870593Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\tasks"
+2025-12-09T02:11:49.871101Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\api"
+2025-12-09T02:11:49.871438Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\api\\auth"
+2025-12-09T02:11:49.871810Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\api\\auth\\[...nextauth]"
+2025-12-09T02:11:49.872454Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\page.tsx"
+2025-12-09T02:11:49.872743Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\components"
+2025-12-09T02:11:49.873201Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\components\\layout"
+2025-12-09T02:11:49.873994Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\components\\ui"
+2025-12-09T02:11:49.874921Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\db"
+2025-12-09T02:11:49.875668Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\lib"
+2025-12-09T02:11:49.878498Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\prisma"
+2025-12-09T02:11:49.879229Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\public"
+2025-12-09T02:11:49.880283Z  INFO scan_sources: tailwindcss_oxide::scanner: exit
+2025-12-09T02:11:49.880322Z  INFO extract_candidates: tailwindcss_oxide::scanner: enter
+2025-12-09T02:11:49.880332Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: enter
+2025-12-09T02:11:49.880340Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading 1 file(s)
+2025-12-09T02:11:49.880499Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading "C:\\Users\\User\\Documents\\Optimum\\app\\page.tsx"
+2025-12-09T02:11:49.880588Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: exit
+2025-12-09T02:11:49.880612Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: enter
+2025-12-09T02:11:49.880622Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: enter
+2025-12-09T02:11:49.882617Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: exit
+2025-12-09T02:11:49.882670Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: exit
+2025-12-09T02:11:49.882750Z  INFO extract_candidates: tailwindcss_oxide::scanner: exit
+2025-12-09T02:11:49.884004Z  INFO get_files: tailwindcss_oxide::scanner: enter
+2025-12-09T02:11:49.884042Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: enter
+2025-12-09T02:11:49.886380Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app"
+2025-12-09T02:11:49.887124Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)"
+2025-12-09T02:11:49.887607Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\consultants"
+2025-12-09T02:11:49.888201Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\dashboard-consultant"
+2025-12-09T02:11:49.888796Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\dashboard-director"
+2025-12-09T02:11:49.889388Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\finance"
+2025-12-09T02:11:49.889938Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\invoices"
+2025-12-09T02:11:49.890598Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\payments"
+2025-12-09T02:11:49.891172Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\projects"
+2025-12-09T02:11:49.891688Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\reports"
+2025-12-09T02:11:49.892233Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\settings"
+2025-12-09T02:11:49.893199Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\tasks"
+2025-12-09T02:11:49.894293Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\api"
+2025-12-09T02:11:49.894859Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\api\\auth"
+2025-12-09T02:11:49.895410Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\api\\auth\\[...nextauth]"
+2025-12-09T02:11:49.896456Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\components"
+2025-12-09T02:11:49.896883Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\components\\layout"
+2025-12-09T02:11:49.897634Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\components\\ui"
+2025-12-09T02:11:49.898770Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\db"
+2025-12-09T02:11:49.899495Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\lib"
+2025-12-09T02:11:49.900872Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\prisma"
+2025-12-09T02:11:49.901626Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\public"
+2025-12-09T02:11:49.902631Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: exit
+2025-12-09T02:11:49.902879Z  INFO get_files: tailwindcss_oxide::scanner: exit
+2025-12-09T02:11:49.903494Z  INFO get_globs: tailwindcss_oxide::scanner: enter
+2025-12-09T02:11:49.903570Z  INFO get_globs: tailwindcss_oxide::scanner: exit
+2025-12-09T02:14:46.442710Z  INFO scan_sources: tailwindcss_oxide::scanner: enter
+2025-12-09T02:14:46.448157Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app"
+2025-12-09T02:14:46.449142Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)"
+2025-12-09T02:14:46.449851Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\consultants"
+2025-12-09T02:14:46.450706Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\dashboard-consultant"
+2025-12-09T02:14:46.451418Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\dashboard-director"
+2025-12-09T02:14:46.452273Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\finance"
+2025-12-09T02:14:46.454179Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\invoices"
+2025-12-09T02:14:46.455877Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\payments"
+2025-12-09T02:14:46.456936Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\projects"
+2025-12-09T02:14:46.458465Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\reports"
+2025-12-09T02:14:46.459934Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\settings"
+2025-12-09T02:14:46.461046Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\tasks"
+2025-12-09T02:14:46.462196Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\api"
+2025-12-09T02:14:46.462850Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\api\\auth"
+2025-12-09T02:14:46.463374Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\api\\auth\\[...nextauth]"
+2025-12-09T02:14:46.464355Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\page.tsx"
+2025-12-09T02:14:46.464792Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\components"
+2025-12-09T02:14:46.465515Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\components\\layout"
+2025-12-09T02:14:46.466662Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\components\\ui"
+2025-12-09T02:14:46.468059Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\db"
+2025-12-09T02:14:46.471414Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\lib"
+2025-12-09T02:14:46.474187Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\prisma"
+2025-12-09T02:14:46.475732Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\public"
+2025-12-09T02:14:46.478809Z  INFO scan_sources: tailwindcss_oxide::scanner: exit
+2025-12-09T02:14:46.478856Z  INFO extract_candidates: tailwindcss_oxide::scanner: enter
+2025-12-09T02:14:46.478870Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: enter
+2025-12-09T02:14:46.478881Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading 1 file(s)
+2025-12-09T02:14:46.479092Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading "C:\\Users\\User\\Documents\\Optimum\\app\\page.tsx"
+2025-12-09T02:14:46.479131Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: exit
+2025-12-09T02:14:46.479150Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: enter
+2025-12-09T02:14:46.479162Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: enter
+2025-12-09T02:14:46.480489Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: exit
+2025-12-09T02:14:46.480541Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: exit
+2025-12-09T02:14:46.481215Z  INFO extract_candidates: tailwindcss_oxide::scanner: exit
+2025-12-09T02:14:46.484435Z  INFO get_files: tailwindcss_oxide::scanner: enter
+2025-12-09T02:14:46.484492Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: enter
+2025-12-09T02:14:46.492257Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app"
+2025-12-09T02:14:46.493713Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)"
+2025-12-09T02:14:46.494754Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\consultants"
+2025-12-09T02:14:46.495577Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\dashboard-consultant"
+2025-12-09T02:14:46.496401Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\dashboard-director"
+2025-12-09T02:14:46.497191Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\finance"
+2025-12-09T02:14:46.497938Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\invoices"
+2025-12-09T02:14:46.500409Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\payments"
+2025-12-09T02:14:46.501455Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\projects"
+2025-12-09T02:14:46.503162Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\reports"
+2025-12-09T02:14:46.505311Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\settings"
+2025-12-09T02:14:46.506514Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\tasks"
+2025-12-09T02:14:46.507977Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\api"
+2025-12-09T02:14:46.509186Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\api\\auth"
+2025-12-09T02:14:46.509881Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\api\\auth\\[...nextauth]"
+2025-12-09T02:14:46.512213Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\components"
+2025-12-09T02:14:46.513214Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\components\\layout"
+2025-12-09T02:14:46.514310Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\components\\ui"
+2025-12-09T02:14:46.518473Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\db"
+2025-12-09T02:14:46.519784Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\lib"
+2025-12-09T02:14:46.521226Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\prisma"
+2025-12-09T02:14:46.522441Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\public"
+2025-12-09T02:14:46.524073Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: exit
+2025-12-09T02:14:46.525104Z  INFO get_files: tailwindcss_oxide::scanner: exit
+2025-12-09T02:14:46.525617Z  INFO get_globs: tailwindcss_oxide::scanner: enter
+2025-12-09T02:14:46.525691Z  INFO get_globs: tailwindcss_oxide::scanner: exit
+2025-12-09T02:20:31.117764Z  INFO scan_sources: tailwindcss_oxide::scanner: enter
+2025-12-09T02:20:31.121262Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app"
+2025-12-09T02:20:31.121729Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)"
+2025-12-09T02:20:31.122149Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\consultants"
+2025-12-09T02:20:31.122828Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\dashboard-consultant"
+2025-12-09T02:20:31.123354Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\dashboard-director"
+2025-12-09T02:20:31.123881Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\finance"
+2025-12-09T02:20:31.124517Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\invoices"
+2025-12-09T02:20:31.126153Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\payments"
+2025-12-09T02:20:31.126786Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\projects"
+2025-12-09T02:20:31.127379Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\reports"
+2025-12-09T02:20:31.128269Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\settings"
+2025-12-09T02:20:31.128858Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\tasks"
+2025-12-09T02:20:31.129407Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\api"
+2025-12-09T02:20:31.129754Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\api\\auth"
+2025-12-09T02:20:31.130146Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\api\\auth\\[...nextauth]"
+2025-12-09T02:20:31.131112Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\components"
+2025-12-09T02:20:31.131568Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\components\\layout"
+2025-12-09T02:20:31.132567Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\components\\ui"
+2025-12-09T02:20:31.133452Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\components\\ui\\input.tsx"
+2025-12-09T02:20:31.134262Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\db"
+2025-12-09T02:20:31.135126Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\lib"
+2025-12-09T02:20:31.136330Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\prisma"
+2025-12-09T02:20:31.137074Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\public"
+2025-12-09T02:20:31.137831Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\setup-users.js"
+2025-12-09T02:20:31.138303Z  INFO scan_sources: tailwindcss_oxide::scanner: exit
+2025-12-09T02:20:31.138341Z  INFO extract_candidates: tailwindcss_oxide::scanner: enter
+2025-12-09T02:20:31.138357Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: enter
+2025-12-09T02:20:31.138366Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading 2 file(s)
+2025-12-09T02:20:31.138725Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\User\\Documents\\Optimum\\setup-users.js"
+2025-12-09T02:20:31.138733Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\User\\Documents\\Optimum\\components\\ui\\input.tsx"
+2025-12-09T02:20:31.138793Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: exit
+2025-12-09T02:20:31.138816Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: enter
+2025-12-09T02:20:31.138827Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: enter
+2025-12-09T02:20:31.140268Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: exit
+2025-12-09T02:20:31.140357Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: exit
+2025-12-09T02:20:31.140638Z  INFO extract_candidates: tailwindcss_oxide::scanner: exit
+2025-12-09T02:20:31.142402Z  INFO get_files: tailwindcss_oxide::scanner: enter
+2025-12-09T02:20:31.142450Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: enter
+2025-12-09T02:20:31.145830Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app"
+2025-12-09T02:20:31.146207Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)"
+2025-12-09T02:20:31.146592Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\consultants"
+2025-12-09T02:20:31.147075Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\dashboard-consultant"
+2025-12-09T02:20:31.147549Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\dashboard-director"
+2025-12-09T02:20:31.148459Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\finance"
+2025-12-09T02:20:31.149364Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\invoices"
+2025-12-09T02:20:31.150233Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\payments"
+2025-12-09T02:20:31.150793Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\projects"
+2025-12-09T02:20:31.151343Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\reports"
+2025-12-09T02:20:31.151900Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\settings"
+2025-12-09T02:20:31.152443Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\tasks"
+2025-12-09T02:20:31.153024Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\api"
+2025-12-09T02:20:31.153487Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\api\\auth"
+2025-12-09T02:20:31.153915Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\api\\auth\\[...nextauth]"
+2025-12-09T02:20:31.154828Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\components"
+2025-12-09T02:20:31.155198Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\components\\layout"
+2025-12-09T02:20:31.155797Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\components\\ui"
+2025-12-09T02:20:31.156730Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\db"
+2025-12-09T02:20:31.157278Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\lib"
+2025-12-09T02:20:31.158997Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\prisma"
+2025-12-09T02:20:31.160051Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\public"
+2025-12-09T02:20:31.161517Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: exit
+2025-12-09T02:20:31.162378Z  INFO get_files: tailwindcss_oxide::scanner: exit
+2025-12-09T02:20:31.162890Z  INFO get_globs: tailwindcss_oxide::scanner: enter
+2025-12-09T02:20:31.162933Z  INFO get_globs: tailwindcss_oxide::scanner: exit
+2025-12-09T02:20:32.954616Z  INFO scan_sources: tailwindcss_oxide::scanner: enter
+2025-12-09T02:20:32.959244Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app"
+2025-12-09T02:20:32.960022Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)"
+2025-12-09T02:20:32.960785Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\consultants"
+2025-12-09T02:20:32.961530Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\dashboard-consultant"
+2025-12-09T02:20:32.962213Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\dashboard-director"
+2025-12-09T02:20:32.962958Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\finance"
+2025-12-09T02:20:32.963740Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\invoices"
+2025-12-09T02:20:32.964606Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\payments"
+2025-12-09T02:20:32.965503Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\projects"
+2025-12-09T02:20:32.967060Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\reports"
+2025-12-09T02:20:32.968221Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\settings"
+2025-12-09T02:20:32.969047Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\tasks"
+2025-12-09T02:20:32.969900Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\api"
+2025-12-09T02:20:32.970456Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\api\\auth"
+2025-12-09T02:20:32.971043Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\api\\auth\\[...nextauth]"
+2025-12-09T02:20:32.971963Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\page.tsx"
+2025-12-09T02:20:32.972351Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\components"
+2025-12-09T02:20:32.972870Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\components\\layout"
+2025-12-09T02:20:32.973794Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\components\\ui"
+2025-12-09T02:20:32.975574Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\db"
+2025-12-09T02:20:32.976753Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\lib"
+2025-12-09T02:20:32.978692Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\prisma"
+2025-12-09T02:20:32.979624Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\public"
+2025-12-09T02:20:32.981342Z  INFO scan_sources: tailwindcss_oxide::scanner: exit
+2025-12-09T02:20:32.981392Z  INFO extract_candidates: tailwindcss_oxide::scanner: enter
+2025-12-09T02:20:32.981412Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: enter
+2025-12-09T02:20:32.981426Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading 1 file(s)
+2025-12-09T02:20:32.981672Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading "C:\\Users\\User\\Documents\\Optimum\\app\\page.tsx"
+2025-12-09T02:20:32.981736Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: exit
+2025-12-09T02:20:32.981760Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: enter
+2025-12-09T02:20:32.981774Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: enter
+2025-12-09T02:20:32.987734Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: exit
+2025-12-09T02:20:32.987787Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: exit
+2025-12-09T02:20:32.988155Z  INFO extract_candidates: tailwindcss_oxide::scanner: exit
+2025-12-09T02:20:32.990054Z  INFO get_files: tailwindcss_oxide::scanner: enter
+2025-12-09T02:20:32.990107Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: enter
+2025-12-09T02:20:33.002466Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app"
+2025-12-09T02:20:33.003280Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)"
+2025-12-09T02:20:33.004436Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\consultants"
+2025-12-09T02:20:33.005525Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\dashboard-consultant"
+2025-12-09T02:20:33.006264Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\dashboard-director"
+2025-12-09T02:20:33.007041Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\finance"
+2025-12-09T02:20:33.008436Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\invoices"
+2025-12-09T02:20:33.009799Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\payments"
+2025-12-09T02:20:33.011214Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\projects"
+2025-12-09T02:20:33.012623Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\reports"
+2025-12-09T02:20:33.013486Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\settings"
+2025-12-09T02:20:33.014298Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\tasks"
+2025-12-09T02:20:33.015167Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\api"
+2025-12-09T02:20:33.015714Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\api\\auth"
+2025-12-09T02:20:33.016503Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\api\\auth\\[...nextauth]"
+2025-12-09T02:20:33.018328Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\components"
+2025-12-09T02:20:33.019099Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\components\\layout"
+2025-12-09T02:20:33.020280Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\components\\ui"
+2025-12-09T02:20:33.021651Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\db"
+2025-12-09T02:20:33.022484Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\lib"
+2025-12-09T02:20:33.023948Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\prisma"
+2025-12-09T02:20:33.027635Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\public"
+2025-12-09T02:20:33.029098Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: exit
+2025-12-09T02:20:33.029328Z  INFO get_files: tailwindcss_oxide::scanner: exit
+2025-12-09T02:20:33.029678Z  INFO get_globs: tailwindcss_oxide::scanner: enter
+2025-12-09T02:20:33.029710Z  INFO get_globs: tailwindcss_oxide::scanner: exit
+2025-12-09T02:22:28.539442Z  INFO scan_sources: tailwindcss_oxide::scanner: enter
+2025-12-09T02:22:28.542507Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app"
+2025-12-09T02:22:28.542919Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)"
+2025-12-09T02:22:28.543310Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\consultants"
+2025-12-09T02:22:28.543852Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\dashboard-consultant"
+2025-12-09T02:22:28.544359Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\dashboard-director"
+2025-12-09T02:22:28.545134Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\finance"
+2025-12-09T02:22:28.546324Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\invoices"
+2025-12-09T02:22:28.547263Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\payments"
+2025-12-09T02:22:28.547763Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\projects"
+2025-12-09T02:22:28.548264Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\reports"
+2025-12-09T02:22:28.548690Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\settings"
+2025-12-09T02:22:28.549247Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\tasks"
+2025-12-09T02:22:28.549889Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\api"
+2025-12-09T02:22:28.550242Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\api\\auth"
+2025-12-09T02:22:28.550596Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\api\\auth\\[...nextauth]"
+2025-12-09T02:22:28.551223Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\page.tsx"
+2025-12-09T02:22:28.551531Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\components"
+2025-12-09T02:22:28.551904Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\components\\layout"
+2025-12-09T02:22:28.552496Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\components\\ui"
+2025-12-09T02:22:28.553433Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\db"
+2025-12-09T02:22:28.554079Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\lib"
+2025-12-09T02:22:28.555417Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\prisma"
+2025-12-09T02:22:28.556123Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\public"
+2025-12-09T02:22:28.557162Z  INFO scan_sources: tailwindcss_oxide::scanner: exit
+2025-12-09T02:22:28.557194Z  INFO extract_candidates: tailwindcss_oxide::scanner: enter
+2025-12-09T02:22:28.557205Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: enter
+2025-12-09T02:22:28.557213Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading 1 file(s)
+2025-12-09T02:22:28.557365Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading "C:\\Users\\User\\Documents\\Optimum\\app\\page.tsx"
+2025-12-09T02:22:28.557390Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: exit
+2025-12-09T02:22:28.557401Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: enter
+2025-12-09T02:22:28.557410Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: enter
+2025-12-09T02:22:28.558358Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: exit
+2025-12-09T02:22:28.558398Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: exit
+2025-12-09T02:22:28.558570Z  INFO extract_candidates: tailwindcss_oxide::scanner: exit
+2025-12-09T02:22:28.560035Z  INFO get_files: tailwindcss_oxide::scanner: enter
+2025-12-09T02:22:28.560107Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: enter
+2025-12-09T02:22:28.564394Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app"
+2025-12-09T02:22:28.564797Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)"
+2025-12-09T02:22:28.565208Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\consultants"
+2025-12-09T02:22:28.565738Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\dashboard-consultant"
+2025-12-09T02:22:28.566227Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\dashboard-director"
+2025-12-09T02:22:28.566717Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\finance"
+2025-12-09T02:22:28.567235Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\invoices"
+2025-12-09T02:22:28.567848Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\payments"
+2025-12-09T02:22:28.568390Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\projects"
+2025-12-09T02:22:28.568887Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\reports"
+2025-12-09T02:22:28.569410Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\settings"
+2025-12-09T02:22:28.569918Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\tasks"
+2025-12-09T02:22:28.570499Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\api"
+2025-12-09T02:22:28.570871Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\api\\auth"
+2025-12-09T02:22:28.571243Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\api\\auth\\[...nextauth]"
+2025-12-09T02:22:28.572742Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\components"
+2025-12-09T02:22:28.573305Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\components\\layout"
+2025-12-09T02:22:28.574065Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\components\\ui"
+2025-12-09T02:22:28.575205Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\db"
+2025-12-09T02:22:28.575839Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\lib"
+2025-12-09T02:22:28.576921Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\prisma"
+2025-12-09T02:22:28.577780Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\public"
+2025-12-09T02:22:28.579591Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: exit
+2025-12-09T02:22:28.580289Z  INFO get_files: tailwindcss_oxide::scanner: exit
+2025-12-09T02:22:28.580623Z  INFO get_globs: tailwindcss_oxide::scanner: enter
+2025-12-09T02:22:28.580671Z  INFO get_globs: tailwindcss_oxide::scanner: exit
+2025-12-09T02:23:32.400001Z  INFO scan_sources: tailwindcss_oxide::scanner: enter
+2025-12-09T02:23:32.403163Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app"
+2025-12-09T02:23:32.403702Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)"
+2025-12-09T02:23:32.404345Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\consultants"
+2025-12-09T02:23:32.404922Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\dashboard-consultant"
+2025-12-09T02:23:32.405429Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\dashboard-director"
+2025-12-09T02:23:32.405941Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\finance"
+2025-12-09T02:23:32.406466Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\invoices"
+2025-12-09T02:23:32.407068Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\payments"
+2025-12-09T02:23:32.407596Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\projects"
+2025-12-09T02:23:32.408188Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\reports"
+2025-12-09T02:23:32.409383Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\settings"
+2025-12-09T02:23:32.410372Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\tasks"
+2025-12-09T02:23:32.411116Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\api"
+2025-12-09T02:23:32.411526Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\api\\auth"
+2025-12-09T02:23:32.411971Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\api\\auth\\[...nextauth]"
+2025-12-09T02:23:32.412864Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\page.tsx"
+2025-12-09T02:23:32.413241Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\components"
+2025-12-09T02:23:32.413629Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\components\\layout"
+2025-12-09T02:23:32.414302Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\components\\ui"
+2025-12-09T02:23:32.415290Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\db"
+2025-12-09T02:23:32.415993Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\lib"
+2025-12-09T02:23:32.417215Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\prisma"
+2025-12-09T02:23:32.418000Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\public"
+2025-12-09T02:23:32.419362Z  INFO scan_sources: tailwindcss_oxide::scanner: exit
+2025-12-09T02:23:32.419408Z  INFO extract_candidates: tailwindcss_oxide::scanner: enter
+2025-12-09T02:23:32.419422Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: enter
+2025-12-09T02:23:32.419432Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading 1 file(s)
+2025-12-09T02:23:32.419620Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading "C:\\Users\\User\\Documents\\Optimum\\app\\page.tsx"
+2025-12-09T02:23:32.419650Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: exit
+2025-12-09T02:23:32.419665Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: enter
+2025-12-09T02:23:32.419674Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: enter
+2025-12-09T02:23:32.422827Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: exit
+2025-12-09T02:23:32.422872Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: exit
+2025-12-09T02:23:32.423339Z  INFO extract_candidates: tailwindcss_oxide::scanner: exit
+2025-12-09T02:23:32.424419Z  INFO get_files: tailwindcss_oxide::scanner: enter
+2025-12-09T02:23:32.424465Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: enter
+2025-12-09T02:23:32.428106Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app"
+2025-12-09T02:23:32.428385Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)"
+2025-12-09T02:23:32.428627Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\consultants"
+2025-12-09T02:23:32.429018Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\dashboard-consultant"
+2025-12-09T02:23:32.429319Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\dashboard-director"
+2025-12-09T02:23:32.429623Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\finance"
+2025-12-09T02:23:32.429947Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\invoices"
+2025-12-09T02:23:32.430268Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\payments"
+2025-12-09T02:23:32.430535Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\projects"
+2025-12-09T02:23:32.430844Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\reports"
+2025-12-09T02:23:32.431106Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\settings"
+2025-12-09T02:23:32.431389Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\tasks"
+2025-12-09T02:23:32.431675Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\api"
+2025-12-09T02:23:32.431886Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\api\\auth"
+2025-12-09T02:23:32.432113Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\api\\auth\\[...nextauth]"
+2025-12-09T02:23:32.432601Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\components"
+2025-12-09T02:23:32.432820Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\components\\layout"
+2025-12-09T02:23:32.433158Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\components\\ui"
+2025-12-09T02:23:32.433651Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\db"
+2025-12-09T02:23:32.433988Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\lib"
+2025-12-09T02:23:32.434552Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\prisma"
+2025-12-09T02:23:32.434909Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\public"
+2025-12-09T02:23:32.436038Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: exit
+2025-12-09T02:23:32.436244Z  INFO get_files: tailwindcss_oxide::scanner: exit
+2025-12-09T02:23:32.436491Z  INFO get_globs: tailwindcss_oxide::scanner: enter
+2025-12-09T02:23:32.436506Z  INFO get_globs: tailwindcss_oxide::scanner: exit
+2025-12-09T02:24:36.224335Z  INFO tailwindcss_oxide::scanner: Provided sources:
+2025-12-09T02:24:36.224356Z  INFO tailwindcss_oxide::scanner: Source: PublicSourceEntry { base: "C:\\Users\\User\\Documents\\Optimum", pattern: "**/*", negated: false }
+2025-12-09T02:24:36.224501Z  INFO tailwindcss_oxide::scanner: Optimized sources:
+2025-12-09T02:24:36.224511Z  INFO tailwindcss_oxide::scanner: Source: Auto { base: "C:\\Users\\User\\Documents\\Optimum" }
+2025-12-09T02:24:36.224698Z  INFO scan_sources: tailwindcss_oxide::scanner: enter
+2025-12-09T02:24:36.226389Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app"
+2025-12-09T02:24:36.226609Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)"
+2025-12-09T02:24:36.226815Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\consultants"
+2025-12-09T02:24:36.226973Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\consultants\\page.tsx"
+2025-12-09T02:24:36.227129Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\dashboard-consultant"
+2025-12-09T02:24:36.227273Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\dashboard-consultant\\page.tsx"
+2025-12-09T02:24:36.227422Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\dashboard-director"
+2025-12-09T02:24:36.227563Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\dashboard-director\\page.tsx"
+2025-12-09T02:24:36.227694Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\finance"
+2025-12-09T02:24:36.227876Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\finance\\page.tsx"
+2025-12-09T02:24:36.228008Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\invoices"
+2025-12-09T02:24:36.228131Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\invoices\\page.tsx"
+2025-12-09T02:24:36.228222Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\layout.tsx"
+2025-12-09T02:24:36.228332Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\payments"
+2025-12-09T02:24:36.228453Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\payments\\page.tsx"
+2025-12-09T02:24:36.228579Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\projects"
+2025-12-09T02:24:36.228704Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\projects\\page.tsx"
+2025-12-09T02:24:36.228831Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\reports"
+2025-12-09T02:24:36.228955Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\reports\\page.tsx"
+2025-12-09T02:24:36.229082Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\settings"
+2025-12-09T02:24:36.229200Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\settings\\page.tsx"
+2025-12-09T02:24:36.229329Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\tasks"
+2025-12-09T02:24:36.229449Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\tasks\\page.tsx"
+2025-12-09T02:24:36.229597Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\api"
+2025-12-09T02:24:36.229756Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\api\\auth"
+2025-12-09T02:24:36.229935Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\api\\auth\\[...nextauth]"
+2025-12-09T02:24:36.230063Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\api\\auth\\[...nextauth]\\route.ts"
+2025-12-09T02:24:36.230199Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\globals.css"
+2025-12-09T02:24:36.230262Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\layout.tsx"
+2025-12-09T02:24:36.230326Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\page.tsx"
+2025-12-09T02:24:36.230458Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\components"
+2025-12-09T02:24:36.230623Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\components\\layout"
+2025-12-09T02:24:36.230746Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\components\\layout\\dashboard-layout.tsx"
+2025-12-09T02:24:36.230811Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\components\\layout\\sidebar.tsx"
+2025-12-09T02:24:36.230873Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\components\\layout\\topbar.tsx"
+2025-12-09T02:24:36.231009Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\components\\ui"
+2025-12-09T02:24:36.231138Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\components\\ui\\avatar.tsx"
+2025-12-09T02:24:36.231204Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\components\\ui\\button.tsx"
+2025-12-09T02:24:36.231265Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\components\\ui\\card.tsx"
+2025-12-09T02:24:36.231329Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\components\\ui\\dropdown-menu.tsx"
+2025-12-09T02:24:36.231390Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\components\\ui\\input.tsx"
+2025-12-09T02:24:36.231450Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\components\\ui\\label.tsx"
+2025-12-09T02:24:36.231514Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\components\\ui\\separator.tsx"
+2025-12-09T02:24:36.231660Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\db"
+2025-12-09T02:24:36.231794Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\db\\prisma.ts"
+2025-12-09T02:24:36.231889Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\eslint.config.mjs"
+2025-12-09T02:24:36.232113Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\generate-hash.js"
+2025-12-09T02:24:36.232379Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\lib"
+2025-12-09T02:24:36.232623Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\lib\\auth.ts"
+2025-12-09T02:24:36.232727Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\lib\\utils.ts"
+2025-12-09T02:24:36.232875Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\middleware.ts"
+2025-12-09T02:24:36.233013Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\next.config.ts"
+2025-12-09T02:24:36.233391Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\package.json"
+2025-12-09T02:24:36.233466Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\postcss.config.mjs"
+2025-12-09T02:24:36.233586Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\prisma"
+2025-12-09T02:24:36.233728Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\prisma\\init.sql"
+2025-12-09T02:24:36.233797Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\prisma\\schema.prisma"
+2025-12-09T02:24:36.233860Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\prisma\\seed.ts"
+2025-12-09T02:24:36.233925Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\prisma\\update-passwords.sql"
+2025-12-09T02:24:36.234058Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\public"
+2025-12-09T02:24:36.234191Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\public\\file.svg"
+2025-12-09T02:24:36.234256Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\public\\globe.svg"
+2025-12-09T02:24:36.234322Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\public\\next.svg"
+2025-12-09T02:24:36.234390Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\public\\vercel.svg"
+2025-12-09T02:24:36.234474Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\public\\window.svg"
+2025-12-09T02:24:36.234567Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\README.md"
+2025-12-09T02:24:36.234633Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\setup-users.js"
+2025-12-09T02:24:36.234716Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\test-connection.js"
+2025-12-09T02:24:36.234780Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\test-mysql.js"
+2025-12-09T02:24:36.234842Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\tsconfig.json"
+2025-12-09T02:24:36.234945Z  INFO scan_sources: tailwindcss_oxide::scanner: exit
+2025-12-09T02:24:36.234956Z  INFO extract_candidates: tailwindcss_oxide::scanner: enter
+2025-12-09T02:24:36.234962Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: enter
+2025-12-09T02:24:36.234966Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading 47 file(s)
+2025-12-09T02:24:36.235204Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\layout.tsx"
+2025-12-09T02:24:36.235207Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\dashboard-director\\page.tsx"
+2025-12-09T02:24:36.235220Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\User\\Documents\\Optimum\\app\\api\\auth\\[...nextauth]\\route.ts"
+2025-12-09T02:24:36.235211Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\User\\Documents\\Optimum\\components\\ui\\separator.tsx"
+2025-12-09T02:24:36.235284Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\User\\Documents\\Optimum\\prisma\\seed.ts"
+2025-12-09T02:24:36.235274Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\User\\Documents\\Optimum\\components\\layout\\dashboard-layout.tsx"
+2025-12-09T02:24:36.235312Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\payments\\page.tsx"
+2025-12-09T02:24:36.235337Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\User\\Documents\\Optimum\\app\\layout.tsx"
+2025-12-09T02:24:36.235344Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\finance\\page.tsx"
+2025-12-09T02:24:36.235399Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\User\\Documents\\Optimum\\db\\prisma.ts"
+2025-12-09T02:24:36.235411Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\User\\Documents\\Optimum\\components\\layout\\sidebar.tsx"
+2025-12-09T02:24:36.235411Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\projects\\page.tsx"
+2025-12-09T02:24:36.235441Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\User\\Documents\\Optimum\\app\\page.tsx"
+2025-12-09T02:24:36.235469Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\User\\Documents\\Optimum\\prisma\\update-passwords.sql"
+2025-12-09T02:24:36.235474Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\invoices\\page.tsx"
+2025-12-09T02:24:36.235507Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\User\\Documents\\Optimum\\eslint.config.mjs"
+2025-12-09T02:24:36.235516Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\reports\\page.tsx"
+2025-12-09T02:24:36.235516Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\User\\Documents\\Optimum\\components\\layout\\topbar.tsx"
+2025-12-09T02:24:36.235553Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\dashboard-consultant\\page.tsx"
+2025-12-09T02:24:36.235602Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\settings\\page.tsx"
+2025-12-09T02:24:36.235656Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\tasks\\page.tsx"
+2025-12-09T02:24:36.235605Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\User\\Documents\\Optimum\\generate-hash.js"
+2025-12-09T02:24:36.235623Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\User\\Documents\\Optimum\\components\\ui\\dropdown-menu.tsx"
+2025-12-09T02:24:36.235699Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\User\\Documents\\Optimum\\middleware.ts"
+2025-12-09T02:24:36.235645Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\User\\Documents\\Optimum\\public\\file.svg"
+2025-12-09T02:24:36.235777Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\User\\Documents\\Optimum\\lib\\auth.ts"
+2025-12-09T02:24:36.235803Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\User\\Documents\\Optimum\\components\\ui\\input.tsx"
+2025-12-09T02:24:36.235807Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\User\\Documents\\Optimum\\components\\ui\\label.tsx"
+2025-12-09T02:24:36.235818Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\User\\Documents\\Optimum\\postcss.config.mjs"
+2025-12-09T02:24:36.235818Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\User\\Documents\\Optimum\\next.config.ts"
+2025-12-09T02:24:36.235853Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\User\\Documents\\Optimum\\components\\ui\\avatar.tsx"
+2025-12-09T02:24:36.235859Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\User\\Documents\\Optimum\\public\\globe.svg"
+2025-12-09T02:24:36.235874Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\User\\Documents\\Optimum\\lib\\utils.ts"
+2025-12-09T02:24:36.235922Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\User\\Documents\\Optimum\\public\\window.svg"
+2025-12-09T02:24:36.235923Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\User\\Documents\\Optimum\\test-connection.js"
+2025-12-09T02:24:36.235933Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\User\\Documents\\Optimum\\prisma\\init.sql"
+2025-12-09T02:24:36.235953Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\User\\Documents\\Optimum\\package.json"
+2025-12-09T02:24:36.235977Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\User\\Documents\\Optimum\\public\\next.svg"
+2025-12-09T02:24:36.235979Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\User\\Documents\\Optimum\\components\\ui\\button.tsx"
+2025-12-09T02:24:36.235977Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\User\\Documents\\Optimum\\public\\vercel.svg"
+2025-12-09T02:24:36.235674Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\consultants\\page.tsx"
+2025-12-09T02:24:36.236059Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\User\\Documents\\Optimum\\README.md"
+2025-12-09T02:24:36.236070Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\User\\Documents\\Optimum\\components\\ui\\card.tsx"
+2025-12-09T02:24:36.236098Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\User\\Documents\\Optimum\\setup-users.js"
+2025-12-09T02:24:36.236100Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\User\\Documents\\Optimum\\test-mysql.js"
+2025-12-09T02:24:36.236137Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\User\\Documents\\Optimum\\tsconfig.json"
+2025-12-09T02:24:36.236148Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\User\\Documents\\Optimum\\prisma\\schema.prisma"
+2025-12-09T02:24:36.236299Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: exit
+2025-12-09T02:24:36.236327Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: enter
+2025-12-09T02:24:36.236335Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: enter
+2025-12-09T02:24:36.239770Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: exit
+2025-12-09T02:24:36.239840Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: exit
+2025-12-09T02:24:36.239864Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: enter
+2025-12-09T02:24:36.239873Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading 1 file(s)
+2025-12-09T02:24:36.240033Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading "C:\\Users\\User\\Documents\\Optimum\\app\\globals.css"
+2025-12-09T02:24:36.240049Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: exit
+2025-12-09T02:24:36.240056Z  INFO extract_candidates:extract_css_variables: tailwindcss_oxide::scanner: enter
+2025-12-09T02:24:36.240062Z  INFO extract_candidates:extract_css_variables:extract: tailwindcss_oxide::scanner: enter
+2025-12-09T02:24:36.240228Z  INFO extract_candidates:extract_css_variables:extract: tailwindcss_oxide::scanner: exit
+2025-12-09T02:24:36.240254Z  INFO extract_candidates:extract_css_variables: tailwindcss_oxide::scanner: exit
+2025-12-09T02:24:36.240902Z  INFO extract_candidates: tailwindcss_oxide::scanner: exit
+2025-12-09T02:24:36.241640Z  INFO get_files: tailwindcss_oxide::scanner: enter
+2025-12-09T02:24:36.241655Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: enter
+2025-12-09T02:24:36.243003Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app"
+2025-12-09T02:24:36.243172Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)"
+2025-12-09T02:24:36.243339Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\consultants"
+2025-12-09T02:24:36.243577Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\dashboard-consultant"
+2025-12-09T02:24:36.243787Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\dashboard-director"
+2025-12-09T02:24:36.243989Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\finance"
+2025-12-09T02:24:36.244190Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\invoices"
+2025-12-09T02:24:36.244445Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\payments"
+2025-12-09T02:24:36.244649Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\projects"
+2025-12-09T02:24:36.244861Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\reports"
+2025-12-09T02:24:36.245063Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\settings"
+2025-12-09T02:24:36.245280Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\tasks"
+2025-12-09T02:24:36.245524Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\api"
+2025-12-09T02:24:36.245688Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\api\\auth"
+2025-12-09T02:24:36.245862Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\api\\auth\\[...nextauth]"
+2025-12-09T02:24:36.246253Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\components"
+2025-12-09T02:24:36.246425Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\components\\layout"
+2025-12-09T02:24:36.246706Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\components\\ui"
+2025-12-09T02:24:36.247128Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\db"
+2025-12-09T02:24:36.247442Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\lib"
+2025-12-09T02:24:36.247991Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\prisma"
+2025-12-09T02:24:36.248365Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\public"
+2025-12-09T02:24:36.249256Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: exit
+2025-12-09T02:24:36.249433Z  INFO get_files: tailwindcss_oxide::scanner: exit
+2025-12-09T02:24:36.249645Z  INFO get_globs: tailwindcss_oxide::scanner: enter
+2025-12-09T02:24:36.249655Z  INFO get_globs:scan_sources: tailwindcss_oxide::scanner: enter
+2025-12-09T02:24:36.251210Z  INFO get_globs:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app"
+2025-12-09T02:24:36.251400Z  INFO get_globs:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)"
+2025-12-09T02:24:36.251608Z  INFO get_globs:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\consultants"
+2025-12-09T02:24:36.251861Z  INFO get_globs:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\dashboard-consultant"
+2025-12-09T02:24:36.252094Z  INFO get_globs:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\dashboard-director"
+2025-12-09T02:24:36.252329Z  INFO get_globs:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\finance"
+2025-12-09T02:24:36.252789Z  INFO get_globs:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\invoices"
+2025-12-09T02:24:36.253981Z  INFO get_globs:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\payments"
+2025-12-09T02:24:36.254609Z  INFO get_globs:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\projects"
+2025-12-09T02:24:36.255132Z  INFO get_globs:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\reports"
+2025-12-09T02:24:36.255707Z  INFO get_globs:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\settings"
+2025-12-09T02:24:36.256121Z  INFO get_globs:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\(dashboard)\\tasks"
+2025-12-09T02:24:36.256500Z  INFO get_globs:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\api"
+2025-12-09T02:24:36.256767Z  INFO get_globs:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\api\\auth"
+2025-12-09T02:24:36.256980Z  INFO get_globs:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\app\\api\\auth\\[...nextauth]"
+2025-12-09T02:24:36.257439Z  INFO get_globs:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\components"
+2025-12-09T02:24:36.257651Z  INFO get_globs:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\components\\layout"
+2025-12-09T02:24:36.258011Z  INFO get_globs:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\components\\ui"
+2025-12-09T02:24:36.258537Z  INFO get_globs:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\db"
+2025-12-09T02:24:36.258868Z  INFO get_globs:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\lib"
+2025-12-09T02:24:36.259465Z  INFO get_globs:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\prisma"
+2025-12-09T02:24:36.259817Z  INFO get_globs:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\User\\Documents\\Optimum\\public"
+2025-12-09T02:24:36.260382Z  INFO get_globs:scan_sources: tailwindcss_oxide::scanner: exit
+2025-12-09T02:24:36.269169Z  INFO get_globs: tailwindcss_oxide::scanner: exit
