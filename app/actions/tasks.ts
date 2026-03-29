@@ -15,7 +15,7 @@ export async function getTasks(filters?: {
     search?: string
 }) {
     const session = await auth()
-    if (!session?.user?.id) return { success: false, error: "Non autorisé" }
+    if (!session?.user) return { success: false, error: "Non autorisé" }
 
     const where: any = {}
 
@@ -57,7 +57,7 @@ export async function getTasks(filters?: {
 
 export async function createTask(data: TaskInput) {
     const session = await auth()
-    if (!session?.user?.id) return { success: false, error: "Non autorisé" }
+    if (!session?.user) return { success: false, error: "Non autorisé" }
 
     const validated = TaskSchema.safeParse(data)
     if (!validated.success) return { success: false, error: validated.error.flatten() }
@@ -75,7 +75,7 @@ export async function createTask(data: TaskInput) {
                 budgetDebours,
                 budgetPerdiem,
                 budgetTransport,
-                creatorId: session.user.id,
+                creatorId: (session.user as any).id,
                 assignees: assigneeIds ? {
                     connect: assigneeIds.map(id => ({ id }))
                 } : undefined,
@@ -108,7 +108,7 @@ export async function createTask(data: TaskInput) {
 
 export async function updateTask(id: string, data: Partial<TaskInput>) {
     const session = await auth()
-    if (!session?.user?.id) return { success: false, error: "Non autorisé" }
+    if (!session?.user) return { success: false, error: "Non autorisé" }
 
     // Manual partial validation could be done here, or rely on schema partial
 
@@ -154,7 +154,7 @@ export async function updateTaskStatus(
     hoursData?: { userId: string, hours: number, description?: string }[]
 ) {
     const session = await auth()
-    if (!session?.user?.id) return { success: false, error: "Non autorisé" }
+    if (!session?.user) return { success: false, error: "Non autorisé" }
 
     try {
         const task = await prisma.task.findUnique({
@@ -167,7 +167,7 @@ export async function updateTaskStatus(
 
         if (!task) return { success: false, error: "Tâche introuvable" }
 
-        const userRole = (session.user as any)?.role
+        const userRole = (session.user as any).role
 
         // Only Director can change to COMPLETED
         if (status === 'COMPLETED' && userRole !== 'DIRECTOR') {
@@ -176,9 +176,9 @@ export async function updateTaskStatus(
 
         // If going to COMPLETED, check if all assignees have hours logged
         if (status === 'COMPLETED') {
-            const assigneeIds = task.assignees.map(a => a.id)
-            const loggedUserIds = task.workedHours.map(wh => wh.userId)
-            const missingHours = assigneeIds.filter(id => !loggedUserIds.includes(id))
+            const assigneeIds = task.assignees.map((a: any) => a.id)
+            const loggedUserIds = task.workedHours.map((wh: any) => wh.userId)
+            const missingHours = assigneeIds.filter((id: any) => !loggedUserIds.includes(id))
 
             // If hours data provided, log missing hours
             if (hoursData && hoursData.length > 0) {
@@ -208,14 +208,14 @@ export async function updateTaskStatus(
 
         // If Consultant going to REVIEW, they should log their own hours
         if (status === 'REVIEW' && userRole === 'CONSULTANT') {
-            const hasLogged = task.workedHours.some(wh => wh.userId === session.user!.id)
+            const hasLogged = task.workedHours.some((wh: any) => wh.userId === (session.user as any).id)
             if (!hasLogged && hoursData) {
-                const myHours = hoursData.find(h => h.userId === session.user!.id)
+                const myHours = hoursData.find((h: any) => h.userId === (session.user as any).id)
                 if (myHours) {
                     await prisma.taskHours.create({
                         data: {
                             taskId: id,
-                            userId: session.user!.id,
+                            userId: (session.user as any).id,
                             hours: myHours.hours,
                             description: myHours.description
                         }
@@ -253,14 +253,14 @@ export async function updateTaskStatus(
 // Task Hours
 export async function logTaskHours(taskId: string, hours: number, description?: string) {
     const session = await auth()
-    if (!session?.user?.id) return { success: false, error: "Non autorisé" }
+    if (!session?.user) return { success: false, error: "Non autorisé" }
 
     try {
         await prisma.taskHours.upsert({
-            where: { taskId_userId: { taskId, userId: session.user.id } },
+            where: { taskId_userId: { taskId, userId: (session.user as any).id } },
             create: {
                 taskId,
-                userId: session.user.id,
+                userId: (session.user as any).id,
                 hours,
                 description
             },
@@ -338,13 +338,13 @@ export async function getComments(taskId: string) {
 
 export async function addComment(taskId: string, content: string, attachments?: any) {
     const session = await auth()
-    if (!session?.user?.id) return { success: false, error: "Non autorisé" }
+    if (!session?.user) return { success: false, error: "Non autorisé" }
 
     try {
         await prisma.comment.create({
             data: {
                 taskId,
-                userId: session.user.id,
+                userId: (session.user as any).id,
                 content,
                 attachments
             }
@@ -358,9 +358,9 @@ export async function addComment(taskId: string, content: string, attachments?: 
         })
 
         if (task) {
-            const recipients = new Set([...task.assignees.map(a => a.id), task.creatorId])
+            const recipients = new Set([...task.assignees.map((a: any) => a.id), task.creatorId])
             recipients.forEach(async (uid) => {
-                if (uid !== session.user.id) {
+                if (uid !== (session.user as any).id) {
                     await createNotification({
                         userId: uid,
                         type: "COMMENT",
@@ -378,7 +378,7 @@ export async function addComment(taskId: string, content: string, attachments?: 
 
 export async function deleteTask(id: string) {
     const session = await auth()
-    if (!session?.user?.id) return { success: false, error: "Non autorisé" }
+    if (!session?.user) return { success: false, error: "Non autorisé" }
 
     try {
         await prisma.task.delete({ where: { id } })

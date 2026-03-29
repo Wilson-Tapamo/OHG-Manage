@@ -33,11 +33,11 @@ export async function getProjects(filters?: {
     consultantId?: string
 }) {
     const session = await auth()
-    if (!session?.user?.id) {
+    if (!session?.user) {
         throw new Error("Unauthorized")
     }
 
-    const userId = session.user.id
+    const userId = (session.user as any).id
     const userRole = (session.user as any).role
 
     const where: any = {}
@@ -101,7 +101,7 @@ export async function getProjects(filters?: {
 
 export async function createProjectJson(data: z.infer<typeof ProjectSchema>) {
     const session = await auth()
-    if (!session?.user?.id) return { success: false, error: "Unauthorized" }
+    if (!session?.user) return { success: false, error: "Unauthorized" }
 
     const validated = ProjectSchema.safeParse(data)
     if (!validated.success) {
@@ -114,7 +114,7 @@ export async function createProjectJson(data: z.infer<typeof ProjectSchema>) {
         await prisma.project.create({
             data: {
                 ...projectData,
-                managerId: session.user.id,
+                managerId: (session.user as any).id,
                 consultants: consultantIds ? {
                     connect: consultantIds.map(id => ({ id }))
                 } : undefined
@@ -143,7 +143,7 @@ export async function createProjectJson(data: z.infer<typeof ProjectSchema>) {
 
 export async function updateProjectJson(id: string, data: z.infer<typeof ProjectSchema>) {
     const session = await auth()
-    if (!session?.user?.id) return { success: false, error: "Unauthorized" }
+    if (!session?.user) return { success: false, error: "Unauthorized" }
 
     const validated = ProjectSchema.safeParse(data)
     if (!validated.success) {
@@ -174,7 +174,7 @@ export async function updateProjectJson(id: string, data: z.infer<typeof Project
 
 export async function updateProjectStatus(id: string, status: "PENDING" | "IN_PROGRESS" | "COMPLETED" | "ON_HOLD") {
     const session = await auth()
-    if (!session?.user?.id) return { success: false, error: "Unauthorized" }
+    if (!session?.user) return { success: false, error: "Unauthorized" }
 
     try {
         await prisma.project.update({
@@ -204,7 +204,7 @@ export async function getConsultants() {
 
 export async function getProjectDetails(id: string) {
     const session = await auth()
-    if (!session?.user?.id) return { success: false, error: "Unauthorized" }
+    if (!session?.user) return { success: false, error: "Unauthorized" }
 
     try {
         const project = await prisma.project.findUnique({

@@ -18,7 +18,7 @@ export async function getInvoices(filters?: {
     projectId?: string
 }) {
     const session = await auth()
-    if ((session?.user as any)?.role !== "DIRECTOR") {
+    if (!session?.user || (session.user as any)?.role !== "DIRECTOR") {
         return { success: false, error: "Non autorisé" }
     }
 
@@ -48,7 +48,7 @@ export async function getInvoices(filters?: {
 // Get invoice by ID with full details
 export async function getInvoiceById(id: string) {
     const session = await auth()
-    if ((session?.user as any)?.role !== "DIRECTOR") {
+    if (!session?.user || (session.user as any)?.role !== "DIRECTOR") {
         return { success: false, error: "Non autorisé" }
     }
 
@@ -86,7 +86,7 @@ export async function getInvoiceById(id: string) {
 // Create invoice for project (auto or manual)
 export async function createInvoiceForProject(projectId: string) {
     const session = await auth()
-    if ((session?.user as any)?.role !== "DIRECTOR") {
+    if (!session?.user || (session.user as any)?.role !== "DIRECTOR") {
         return { success: false, error: "Non autorisé" }
     }
 
@@ -105,7 +105,7 @@ export async function createInvoiceForProject(projectId: string) {
             data: {
                 number: generateInvoiceNumber(),
                 projectId,
-                userId: session.user!.id,
+                userId: (session.user as any).id,
                 subtotal: 0,
                 taxRate: 19.25,
                 tax: 0,
@@ -130,7 +130,7 @@ export async function addInvoiceLine(invoiceId: string, data: {
     taskId?: string
 }) {
     const session = await auth()
-    if ((session?.user as any)?.role !== "DIRECTOR") {
+    if (!session?.user || (session.user as any)?.role !== "DIRECTOR") {
         return { success: false, error: "Non autorisé" }
     }
 
@@ -167,7 +167,7 @@ export async function updateInvoiceLine(lineId: string, data: {
     unitPrice?: number
 }) {
     const session = await auth()
-    if ((session?.user as any)?.role !== "DIRECTOR") {
+    if (!session?.user || (session.user as any)?.role !== "DIRECTOR") {
         return { success: false, error: "Non autorisé" }
     }
 
@@ -208,7 +208,7 @@ export async function updateInvoiceLine(lineId: string, data: {
 // Delete invoice line
 export async function deleteInvoiceLine(lineId: string) {
     const session = await auth()
-    if ((session?.user as any)?.role !== "DIRECTOR") {
+    if (!session?.user || (session.user as any)?.role !== "DIRECTOR") {
         return { success: false, error: "Non autorisé" }
     }
 
@@ -237,7 +237,7 @@ async function recalculateInvoice(invoiceId: string) {
         where: { invoiceId }
     })
 
-    const subtotal = lines.reduce((sum, line) => sum + Number(line.amount), 0)
+    const subtotal = lines.reduce((sum: number, line: any) => sum + Number(line.amount), 0)
 
     const invoice = await prisma.invoice.findUnique({ where: { id: invoiceId } })
     const taxRate = Number(invoice?.taxRate || 19.25)
@@ -253,7 +253,7 @@ async function recalculateInvoice(invoiceId: string) {
 // Validate invoice (lock it)
 export async function validateInvoice(id: string) {
     const session = await auth()
-    if ((session?.user as any)?.role !== "DIRECTOR") {
+    if (!session?.user || (session.user as any)?.role !== "DIRECTOR") {
         return { success: false, error: "Non autorisé" }
     }
 
@@ -288,7 +288,7 @@ export async function validateInvoice(id: string) {
 // Mark invoice as paid
 export async function markInvoiceAsPaid(id: string) {
     const session = await auth()
-    if ((session?.user as any)?.role !== "DIRECTOR") {
+    if (!session?.user || (session.user as any)?.role !== "DIRECTOR") {
         return { success: false, error: "Non autorisé" }
     }
 
@@ -321,7 +321,7 @@ export async function markInvoiceAsPaid(id: string) {
                 category: 'Paiement Client',
                 projectId: invoice.projectId,
                 invoiceId: id,
-                createdById: session.user!.id
+                createdById: (session.user as any).id
             }
         })
 
@@ -335,7 +335,7 @@ export async function markInvoiceAsPaid(id: string) {
 // Delete invoice (only drafts)
 export async function deleteInvoice(id: string) {
     const session = await auth()
-    if ((session?.user as any)?.role !== "DIRECTOR") {
+    if (!session?.user || (session.user as any)?.role !== "DIRECTOR") {
         return { success: false, error: "Non autorisé" }
     }
 
@@ -356,7 +356,7 @@ export async function deleteInvoice(id: string) {
 // Add invoice lines from completed task (auto-invoicing)
 export async function addTaskToInvoice(taskId: string) {
     const session = await auth()
-    if (!session?.user?.id) return { success: false, error: "Non autorisé" }
+    if (!session?.user) return { success: false, error: "Non autorisé" }
 
     try {
         const task = await prisma.task.findUnique({
@@ -383,7 +383,7 @@ export async function addTaskToInvoice(taskId: string) {
                 data: {
                     number: generateInvoiceNumber(),
                     projectId: task.projectId,
-                    userId: session.user.id,
+                    userId: (session.user as any).id,
                     subtotal: 0,
                     taxRate: 19.25,
                     tax: 0,
@@ -416,7 +416,7 @@ export async function addTaskToInvoice(taskId: string) {
                     projectId: task.projectId,
                     taskId: task.id,
                     invoiceId: invoice.id,
-                    createdById: session.user.id
+                    createdById: (session.user as any).id
                 }
             })
         }
@@ -443,7 +443,7 @@ export async function addTaskToInvoice(taskId: string) {
                     category: 'Per Diem',
                     projectId: task.projectId,
                     taskId: task.id,
-                    createdById: session.user.id
+                    createdById: (session.user as any).id
                 }
             })
         }
@@ -470,7 +470,7 @@ export async function addTaskToInvoice(taskId: string) {
                     category: 'Débours',
                     projectId: task.projectId,
                     taskId: task.id,
-                    createdById: session.user.id
+                    createdById: (session.user as any).id
                 }
             })
         }
@@ -497,7 +497,7 @@ export async function addTaskToInvoice(taskId: string) {
                     category: 'Transport',
                     projectId: task.projectId,
                     taskId: task.id,
-                    createdById: session.user.id
+                    createdById: (session.user as any).id
                 }
             })
         }
@@ -506,7 +506,7 @@ export async function addTaskToInvoice(taskId: string) {
         await recalculateInvoice(invoice.id)
 
         // Notify Invoice Owner (Director)
-        if (invoice.userId !== session.user.id) {
+        if (invoice.userId !== (session.user as any).id) {
             await createNotification({
                 userId: invoice.userId,
                 type: "INVOICE",

@@ -38,14 +38,14 @@ export async function getNotifications(limit = 20) {
 
     try {
         const notifications = await prisma.notification.findMany({
-            where: { userId: session.user.id },
+            where: { userId: (session.user as any).id },
             orderBy: { createdAt: 'desc' },
             take: limit
         })
 
         const unreadCount = await prisma.notification.count({
             where: {
-                userId: session.user.id,
+                userId: (session.user as any).id,
                 read: false
             }
         })
@@ -63,7 +63,7 @@ export async function markAsRead(id: string) {
 
     try {
         await prisma.notification.update({
-            where: { id, userId: session.user.id },
+            where: { id, userId: (session.user as any).id },
             data: { read: true }
         })
         revalidatePath("/")
@@ -80,7 +80,7 @@ export async function markAllAsRead() {
 
     try {
         await prisma.notification.updateMany({
-            where: { userId: session.user.id, read: false },
+            where: { userId: (session.user as any).id, read: false },
             data: { read: true }
         })
         revalidatePath("/")
