@@ -18,6 +18,10 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 
 import { TaskCard } from "./task-card"
+import { TaskDetailsModal } from "./task-details-modal"
+import { NewTaskModal } from "./new-task-modal"
+import { TaskStatusModal } from "./task-status-modal"
+
 interface TasksViewProps {
     initialTasks: any[]
     projects: any[]
